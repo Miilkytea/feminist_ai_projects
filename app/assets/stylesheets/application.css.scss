@@ -35,24 +35,6 @@ hr {
   border-top: 2px dotted #88D0AD;
 }
 
-#container {
-  width: 700px;
-  margin: auto;
-}
-
-.pull-left {
-  float: left;
-}
-
-.pull-right {
-  float: right;
-}
-
-nav {
-  overflow: auto;
-  width: 100%;
-}
-
   ul {
     list-style: none;
     text-align: right;
@@ -114,7 +96,7 @@ nav {
 }
 
 #main_content {
-  margin-left: 200px;
+  //margin-left: 200px;
   #header {
     padding: 1.2em 3.5em;
     border-bottom: 1px solid #b8e2fe;

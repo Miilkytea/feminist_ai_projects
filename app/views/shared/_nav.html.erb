@@ -1,10 +1,12 @@
 <nav class='nav'>
+  <%= link_to image_tag('bits-and-bytes.png'), root_path, alt: "Bits & Bytes Logo" %>
   <ul class='pull-left'>
-    <li><%= link_to 'About'%></li>
-    <li><%= link_to 'Approach' %></li>
+    <li><%= link_to 'About', about_path %></li>
+    <li><%= link_to 'Approach', approach_path %></li>
     <li><%= link_to 'AI Design Strategy' %></li>
-    <li><%= link_to 'AI Proposals'%></li>
-    <li><%= link_to 'Collaborators' %></li>
+    <li><%= link_to 'AI Proposals' %></li>
+    <li><%= link_to 'Collaborators', collaborators_path %></li>
+    <li><%= link_to 'Events', events_path %></li>
   </ul>
   <ul class='pull-right'>
     <li><%= link_to 'Logout' %></li>

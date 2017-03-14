@@ -11,19 +11,24 @@
     </div>
   <% end %>
 
+    <div class="field">
+    <%= f.label :event_name %>
+    <%= f.text_field :event_name %>
+  </div>
+
   <div class="field">
     <%= f.label :location %>
     <%= f.text_field :location %>
   </div>
 
   <div class="field">
-    <%= f.label :date %>
-    <%= f.datetime_select :date %>
+    <%= f.label :address %>
+    <%= f.text_field :address %>
   </div>
 
   <div class="field">
-    <%= f.label :address %>
-    <%= f.text_field :address %>
+    <%= f.label :date %>
+    <%= f.datetime_select :date %>
   </div>
 
   <div class="field">

@@ -1,24 +1,26 @@
-<p id="notice"><%= notice %></p>
+<div id="page_wrapper">
+  <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Type:</strong>
-  <%= @collaborator.type %>
-</p>
+  <p>
+    <strong>Type:</strong>
+    <%= @collaborator.type %>
+  </p>  
 
-<p>
-  <strong>Name:</strong>
-  <%= @collaborator.name %>
-</p>
+  <p>
+    <strong>Name:</strong>
+    <%= @collaborator.name %>
+  </p>
 
-<p>
-  <strong>Website:</strong>
-  <%= @collaborator.website %>
-</p>
+  <p>
+    <strong>Website:</strong>
+    <%= @collaborator.website %>
+  </p>  
 
-<p>
-  <strong>Image:</strong>
-  <%= @collaborator.image %>
-</p>
+  <p>
+    <strong>Image:</strong>
+    <%= @collaborator.image %>
+  </p>
 
-<%= link_to 'Edit', edit_collaborator_path(@collaborator) %> |
-<%= link_to 'Back', collaborators_path %>
+  <%= link_to 'Edit', edit_collaborator_path(@collaborator) %> |
+  <%= link_to 'Back', collaborators_path %>
+</div>
