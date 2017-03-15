@@ -10,8 +10,75 @@ html, body {
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
+h1 {
+  font-family: Raleway;
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+}
+h2 {
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+h3 {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 22px;
+}
+h4 {
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+h5 {
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+}
+h6 {
+  font-family: Raleway;
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+}
+p {
+  font-family: Raleway;
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+blockquote {
+  font-family: Raleway;
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+pre {
+  font-family: Raleway;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714px;
 }
 
 a {
@@ -19,7 +86,7 @@ a {
   color: inherit;
 }
 a:hover { 
-  background-color: #396f8f;
+  background-color: #498fb8;
   color: inherit;
 }
 
@@ -74,10 +141,9 @@ ul.nav li a {
 }
 
 #main_content {
-  //margin-left: 200px;
   #header {
-    padding: 1.2em 3.5em;
-    border-bottom: 1px solid #b8e2fe;
+    padding: 1em 1em;
+    border-bottom: 1px solid #396f8f;
     background: #529FCD;
     color: #FFF;
     p {
@@ -86,10 +152,11 @@ ul.nav li a {
     a {
       color: #FFF;
       text-decoration: none;
+      position: relative;
     }
     .buttons {
       float: right;
-      margin-top: -6px;
+      margin-top: -3px;
       .button {
         font-size: .8em;
         margin-left: .5em;
@@ -182,7 +249,9 @@ ul.nav li a {
     }
   }
   #page_wrapper {
-    padding: 3em;
+    padding: 2em;
+    padding-top: 0px;
+    h2 {padding-left: 25px;}
     .title {
       font-weight: 500;
       text-decoration: none;
@@ -214,9 +283,7 @@ ul.nav li a {
       }
     }
   }
-  .links {
-    margin: 2em 0;
-  }
+
   input[type="text"], input[type="email"], input[type="password"], textarea {
     width: 70%;
     border: 1px solid #d6dce0;
@@ -224,6 +291,7 @@ ul.nav li a {
     margin-top: 20px;
     padding: .5em 1em;
     line-height: 1.75;
+    color: #dd2d2d;
   }
   input[type="text"] {
     height: 35px;
