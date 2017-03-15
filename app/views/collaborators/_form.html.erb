@@ -1,37 +1,7 @@
-<%= form_for(collaborator) do |f| %>
-  <% if collaborator.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(collaborator.errors.count, "error") %> prohibited this collaborator from being saved:</h2>
-
-      <ul>
-      <% collaborator.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
-
-  <div class="field">
-    <%= f.label :type %>
-    <%= f.text_field :type %>
-  </div>
-
-  <div class="field">
-    <%= f.label :name %>
-    <%= f.text_field :name %>
-  </div>
-
-  <div class="field">
-    <%= f.label :website %>
-    <%= f.text_field :website %>
-  </div>
-
-  <div class="field">
-    <%= f.label :image %>
-    <%= f.text_field :image %>
-  </div>
-
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+<%= simple_form_for @collaborator do |f| %>
+  <%= f.input :type %>
+  <%= f.input :name %>
+  <%= f.input :website %>
+  <%= f.input :image %>
+  <%= f.text_field :image %>
 <% end %>
