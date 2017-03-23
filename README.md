@@ -1,23 +1,16 @@
-# README
+# README/feminist-ai-projects
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://feminist-ai-projects.herokuapp.com/
 
-Things you may want to cover:
-
-* Ruby version
+* Ruby version - ruby-2.3.0
 
 * System dependencies
 
 * Configuration
 
-* Database creation
+* Database - PostgreSQl
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
+* How to run the test suite - $ `rails test`
 
 * Deployment instructions
 
