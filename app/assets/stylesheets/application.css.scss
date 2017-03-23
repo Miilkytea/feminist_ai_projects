@@ -56,17 +56,10 @@ h6 {
   font-variant: normal;
   font-weight: 700;
 }
-p {
-  font-family: Raleway;
-  font-size: 12px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 20px;
-}
+
 blockquote {
   font-family: Raleway;
-  font-size: 21px;
+  font-size: 18px;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
@@ -92,7 +85,7 @@ a:hover {
 
 #sidebar {
   color: #555;
-  width: 200px;
+  width: 60px;
   position: fixed;
   left: 0;
   top: 0;
@@ -148,6 +141,12 @@ ul.nav li a {
     color: #FFF;
     p {
       display: inline;
+      font-family: Raleway;
+      font-size: 12px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 400;
+      line-height: 20px;
     }
     a {
       color: #FFF;
@@ -273,8 +272,12 @@ ul.nav li a {
         font-weight: 500;
       }
       p {
-        font-size: 1.1em;
-        line-height: 1.75;
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 20px;
       }
       a {
         color: #33acb7;
@@ -313,3 +316,11 @@ ul.nav li a {
     }
   }
 }
+      p {
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 20px;
+      }
