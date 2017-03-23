@@ -12,4 +12,7 @@ class PagesController < ApplicationController
   def ai_proposals
   end
 
+  def ai_design_research
+  end
+
 end

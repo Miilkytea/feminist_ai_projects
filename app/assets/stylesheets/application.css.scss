@@ -1,326 +1,121 @@
-/*
- *
- *= require_tree .
- *= require_self
- */
+$navbar-default-bg: #529FCD;
 
-@import 'normalize';
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
-html, body {
-  font-family: 'PT Sans Narrow', sans-serif;
+.jumbotron {
+  background-image: asset-url('bitsnbytes_feminist_ai_projects_home.png');
+  background-size: cover;
+  height: 300px;
+  color: white;
+}
+
+.jumbotron-approach {
+  background-image: asset-url('bitsnbytes_feminist_ai_projects_2.png');
+}
+.jumbotron-approach_methods {
+  background-image: asset-url('bitsnbytes_feminist_ai_projects_methods.png');
+  height: 400px;
+}
+
+.jumbotron-approach_rules {
+  background-image: asset-url('bitsnbytes_feminist_ai_projects_rules.png');
+  height: 400px;
+}
+
+.jumbotron-embodiment {
+  background-image: asset-url('bitsnbytes_feminist_ai_projects_rules.png');
+  height: 400px;
+}
+
+.jumbotron-mitsuku {
+  background-image: asset-url('bitsnbytes_feminist_ai_projects_mitsuku.png');
+  height: 400px;
+}
+
+.jumbotron-research_overview {
+  background-image: asset-url('bitsnbytes_feminist_ai_projects_research_overview.png');
+  height: 400px;
+}
+
+.jumbotron-research_embodiment {
+  background-image: asset-url('bitsnbytes_feminist_ai_projects_embodiment.png');
+  height: 400px;
+}
+
+.jumbotron-research_facial_expression {
+  background-image: asset-url('bitsnbytes_feminist_ai_projects_research_facial_expressions.png');
+  height: 400px;
+}
+
+.jumbotron-research_tone_of_voice {
+  background-image: asset-url('bitsnbytes_feminist_ai_projects_research_tone_of_voice.png');
+  height: 400px;
+}
+
+.jumbotron-research_tone_of_voice-2 {
+  background-image: asset-url('bitsnbytes_feminist_ai_projects_research_tone_of_voice-2.png');
+  height: 400px;
+}
+
+.jumbotron-research_movement-touch {
+  background-image: asset-url('bitsnbytes_feminist_ai_projects_research_movement-touch.png');
+  height: 400px;
+}
+
+.jumbotron-research_emotion {
+  background-image: asset-url('bitsnbytes_feminist_ai_projects_research_emotion.png');
+  height: 400px;
+}
+
+.jumbotron-physical-digital-spaces {
+  background-image: asset-url('bitsnbytes_feminist_ai_projects_research_physical-digital-spaces.png');
+  height: 400px;
+}
+
+.jumbotron-research_model-making {
+  background-image: asset-url('bitsnbytes_feminist_ai_projects_research_model-making.png');
+  height: 400px;
+}
+
+.jumbotron-research_conways-game-of-life {
+  background-image: asset-url('bitsnbytes_feminist_ai_projects_research_conways-game-of-life.png');
+}
+
+.jumbotron-research_future {
+  background-image: asset-url('bitsnbytes_feminist_ai_projects_research_future.png');
+  height: 400px;
 }
 
 h1 {
-  font-family: Raleway;
-  font-size: 30px;
+  font-family: lobster;
+  font-weight: 400;
   font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
-  line-height: 26.4px;
+  font-size: 31px;
+  text-shadow: 4px 4px 4px #529FCD;
 }
-h2 {
-  font-family: Raleway;
-  font-size: 24px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
-  line-height: 26px;
+
+#logo {
+  float: left;
+  font-size: 1.2em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
 }
-h3 {
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
-  line-height: 22px;
-}
-h4 {
+
+p,td,li {
   font-family: Raleway;
   font-size: 16px;
   font-style: normal;
   font-variant: normal;
-  font-weight: 500;
-  line-height: 18px;
-}
-h5 {
-  font-family: Raleway;
-  font-size: 14px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
-}
-h6 {
-  font-family: Raleway;
-  font-size: 12px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-}
-
-blockquote {
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-variant: normal;
   font-weight: 400;
-  line-height: 30px;
-}
-pre {
-  font-family: Raleway;
-  font-size: 13px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 18.5714px;
+  line-height: 20px;
 }
 
-a {
+#logo:hover {
+  color: #999;
   text-decoration: none;
-  color: inherit;
 }
-a:hover { 
-  background-color: #498fb8;
-  color: inherit;
+.center {
+  text-align: center;
 }
-
-#sidebar {
-  color: #555;
-  width: 60px;
-  position: fixed;
-  left: 0;
-  top: 0;
-  height: 100%;
-  background: #88D0AD;
-  padding: 7em 0 0 0;
-  border-right: 1px solid #b8e2fe;
-}
-
-hr {
-  background-color: #fff;
-  border-top: 2px dotted #369;
-}
-
-ul.nav li {
-  display: inline;
-}
-ul.nav li a {
-  padding: 10px 15px 10px;
-  color: #777777;
-  text-decoration: none;
-  text-shadow: 0 1px 0 white;
-}
-
-.button {
-  outline: #369 solid 1px ;
-  background: transparent;
-  border: 1.5px solid #88D0AD;
-  padding: .5em 2.5em;
-  border-radius: 0.5em;
-  &:hover {
-    border: 1px solid #333734;
-    color: #22487b;
-    a {
-      color: #22487b !important;
-    }
-  }
-}
-
-.clearfix:after {
-   content: ".";
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
-}
-
-#main_content {
-  #header {
-    padding: 1em 1em;
-    border-bottom: 1px solid #396f8f;
-    background: #529FCD;
-    color: #FFF;
-    p {
-      display: inline;
-      font-family: Raleway;
-      font-size: 12px;
-      font-style: normal;
-      font-variant: normal;
-      font-weight: 400;
-      line-height: 20px;
-    }
-    a {
-      color: #FFF;
-      text-decoration: none;
-      position: relative;
-    }
-    .buttons {
-      float: right;
-      margin-top: -3px;
-      .button {
-        font-size: .8em;
-        margin-left: .5em;
-      }
-    }
-  }
-  .post_wrapper {
-    padding: 1.9em;
-    border-bottom: 1px solid #d6dce0;
-    .title {
-      margin: 2px;
-      a {
-        font-weight: 500;
-        text-decoration: none;
-        color: #529FCD;
-        font-size: 1.2em;
-        &:hover {
-          color: #22487b;
-        }
-      }
-    }
-    .date_and_author {
-      color: #22487b;
-      margin: .5em 0 0 0;
-    }
-    .body {
-      color: #8C8C8C;
-      margin: .5em 0 0 0;
-    }
-  }
-  #post_content {
-    padding: 1em 3em;
-    .title {
-      font-weight: 500;
-      text-decoration: none;
-      color: #529FCD;
-      font-size: 2.5em;
-      margin-bottom: 0;
-    }
-    .body {
-      color: #555;
-      font-size: 1.1em;
-      line-height: 1.75;
-    }
-    .date_and_author {
-      color: #8C8C8C;
-      margin: .5em 0 2em 0;
-    }
-    #comments {
-      h2 {
-        margin: 3em 0 1em 0;
-        border-bottom: 1px solid #d6dce0;
-        padding-bottom: 0.5em;
-      }
-      h3 {
-        margin-top: 2em;
-      }
-      .comment {
-        border-bottom: 1px solid #d6dce0;
-        padding: 1.5em 2em;
-        .clear_both {
-          clear: both;
-        }
-        &:after {
-          clear: both;
-        }
-        .comment_content {
-          float: left;
-          .comment_name {
-            margin: 1em 0 0 0;
-            font-size: 1.0em;
-            text-transform: uppercase;
-          }
-          .comment_body {
-            font-size: 1.2em;
-            margin: 0.2em 0 0 0;
-          }
-          .comment_time {
-            margin-top: 1.2em;
-            font-size: .8em;
-          }
-        }
-        .button {
-          float: right;
-        }
-      }
-      input[type="text"], textarea {
-        width: 50%;
-      }
-    }
-  }
-  #page_wrapper {
-    padding: 2em;
-    padding-top: 0px;
-    h2 {padding-left: 25px;}
-    .title {
-      font-weight: 500;
-      text-decoration: none;
-      color: #529FCD;
-      font-size: 2.5em;
-      margin-bottom: 0;
-    }
-    #profile_image {
-      width: 300px;
-      float: left;
-      margin-right: 2em;
-      img {
-        width: 100%;
-        border-radius: 0.35em;
-      }
-    }
-    #content {
-      h1 {
-        font-weight: 500;
-      }
-      p {
-        font-family: Raleway;
-        font-size: 14px;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: 400;
-        line-height: 20px;
-      }
-      a {
-        color: #33acb7;
-        font-weight: 700;
-        text-decoration: none;
-      }
-    }
-  }
-
-  input[type="text"], input[type="email"], input[type="password"], textarea {
-    width: 70%;
-    border: 1px solid #d6dce0;
-    border-radius: .35em;
-    margin-top: 20px;
-    padding: .5em 1em;
-    line-height: 1.75;
-    color: #dd2d2d;
-  }
-  input[type="text"] {
-    height: 35px;
-  }
-  textarea {
-    min-height: 180px;
-  }
-  input[type="submit"] {
-    outline: none;
-    background: transparent;
-    border: 1px solid #d6dce0;
-    padding: .5em 1.5em;
-    font-size: 1.1em;
-    border-radius: 1.5em;
-    margin-left: .5em;
-    &:hover {
-      border: 1px solid #33acb7;
-      color: #33acb7;
-    }
-  }
-}
-      p {
-        font-family: Raleway;
-        font-size: 14px;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: 400;
-        line-height: 20px;
-      }

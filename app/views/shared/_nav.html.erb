@@ -1,10 +1,28 @@
-<div style="font-size:1em;"><%= link_to image_tag('bits-and-bytes.png'), root_path, alt: "Bits & Bytes Logo" %> Feminist AI Projects</div>
-  <ul class='nav'>
-    <li><%= link_to 'About', about_path %></li>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <%= link_to "Feminist Artificial Intelligence Projects", root_path, class: "navbar-brand", id: "logo" %>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav navbar-right">
     <li><%= link_to 'Approach', approach_path %></li>
-    <li><%= link_to 'AI Design Strategy' %></li>
+    <li><%= link_to 'AI Design Research', ai_design_research_path %></li>
     <li><%= link_to 'AI Proposals', ai_proposals_path %></li>
     <li><%= link_to 'Collaborators', collaborators_path %></li>
     <li><%= link_to 'Events', events_path %></li>
-    <li style="float: right;"><%= link_to 'Login' %></li>
-  </ul>
+    <li style="float: right;"><%#= link_to 'Login' %></li>
+      </ul>
+    </div>
+    </div>
+        </nav>
+
