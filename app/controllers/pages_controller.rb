@@ -8,4 +8,8 @@ class PagesController < ApplicationController
 
   def approach
   end
+
+  def ai_proposals
+  end
+
 end
