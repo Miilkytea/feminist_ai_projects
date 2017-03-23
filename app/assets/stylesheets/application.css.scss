@@ -4,15 +4,19 @@ $navbar-default-bg: #529FCD;
 @import "bootstrap";
 
 .jumbotron {
-  background-image: asset-url('bitsnbytes_feminist_ai_projects_home.png');
   background-size: cover;
   height: 300px;
   color: white;
 }
 
+.jumbotron-home {
+  background-image: asset-url('bitsnbytes_feminist_ai_projects_home.png');
+}
+
 .jumbotron-approach {
   background-image: asset-url('bitsnbytes_feminist_ai_projects_2.png');
 }
+
 .jumbotron-approach_methods {
   background-image: asset-url('bitsnbytes_feminist_ai_projects_methods.png');
   height: 400px;
@@ -87,6 +91,10 @@ $navbar-default-bg: #529FCD;
   height: 400px;
 }
 
+.jumbotron-event{
+  background-image: asset-url('bitsnbytes_feminist_ai_projects_embodiment.png');
+}
+
 h1 {
   font-family: lobster;
   font-weight: 400;
@@ -118,4 +126,8 @@ p,td,li {
 }
 .center {
   text-align: center;
+}
+
+td,th {
+  width: 150px;
 }
