@@ -103,6 +103,11 @@ h1 {
   text-shadow: 4px 4px 4px #529FCD;
 }
 
+hr {
+  background-color: #fff;
+  border-top: 2px dotted #529FCD;
+}
+
 #logo {
   float: left;
   font-size: 1.2em;
@@ -130,4 +135,20 @@ p,td,li {
 
 td,th {
   width: 150px;
+}
+
+.ai-projects {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 18px;
+  line-height: 30px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  position: relative;
 }
