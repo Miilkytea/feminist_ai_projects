@@ -4,6 +4,14 @@ $navbar-default-bg: #529FCD;
 @import "bootstrap";
 @import "font-awesome";
 
+@font-face {
+    font-family: 'GT America';
+    src: url(font-path('GT_America.eot') + "?#iefix") format('embedded-opentype'),
+         url(font-path('GT_America.woff')) format('woff'),
+         url(font-path('GT_America.ttf'))  format('truetype'),
+         url(font-path('GT_America.svg') + "#GT_America") format('svg');
+}
+
 .jumbotron {
   background-size: cover;
   height: 300px;
