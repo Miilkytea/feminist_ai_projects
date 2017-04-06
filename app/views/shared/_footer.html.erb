@@ -6,11 +6,10 @@
       christine.meinders@gmail.com | <%= link_to 'Collaborators', collaborators_path %> | 
       <%= link_to 'Resources', resources_path %> | <%= link_to 'Events', events_path %> | 
 
-      <i class="fa fa-facebook" aria-hidden="true"></i>
-<i class="fa fa-twitter" aria-hidden="true"></i>
-<i class="fa fa-envelope" aria-hidden="true"></i>
-<i class="fa fa-calendar" aria-hidden="true"></i>
-<i class="fa fa-meetup" aria-hidden="true"></i>
+      <%= link_to "<i class='fa fa-facebook' aria-hidden='true'></i>".html_safe, "#" -%>
+      <%= link_to "<i class='fa fa-twitter'  aria-hidden='true'></i>".html_safe, "#" -%>
+      <%= link_to "<i class='fa fa-calendar' aria-hidden='true'></i>".html_safe, "#" -%>
+      <%= link_to "<i class='fa fa-meetup'   aria-hidden='true'></i>".html_safe, "https://www.meetup.com/Bits-and-Bytes-Feminist-Artificial-Intelligence-Projects/" -%>
     </p>
   </div>
 </footer>
