@@ -8,6 +8,7 @@ end
 
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'coffee-rails', '~> 4.2'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
 gem 'jbuilder', '~> 2.5'
 gem 'jquery-rails'
 gem 'pg', '~> 0.18'
