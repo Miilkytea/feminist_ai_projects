@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   get '/approach', to: 'pages#approach'
   get '/ai_design_tools', to: 'pages#ai_design_tools'
   get '/ai_design_research', to: 'pages#ai_design_research'
+  get '/current_ai_projects', to: 'pages#current_ai_projects'
   get '/resources', to: 'pages#resources'
 end
