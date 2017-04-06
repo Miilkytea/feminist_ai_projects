@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -11,16 +11,13 @@
       <%= link_to "Feminist Artificial Intelligence Projects", root_path, class: "navbar-brand", id: "logo" %>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
       <ul class="nav navbar-nav navbar-right">
-    <li><%= link_to 'Approach', approach_path %></li>
-    <li><%= link_to 'AI Design Research', ai_design_research_path %></li>
-    <li><%= link_to 'AI Proposals', ai_proposals_path %></li>
-    <li><%= link_to 'Collaborators', collaborators_path %></li>
-    <li><%= link_to 'Events', events_path %></li>
-    <li style="float: right;"><%#= link_to 'Login' %></li>
+        <li><%= link_to 'Approach', approach_path %></li>
+        <li><%= link_to 'AI Design Research', ai_design_research_path %></li>
+        <li><%= link_to 'AI Design Tools', ai_design_tools_path %></li>
+        <li><%= link_to 'Current AI Projects', current_ai_projects_path %></li>
+        <li style="float: right;"><%#= link_to 'Login' %></li>
       </ul>
     </div>
   </div>

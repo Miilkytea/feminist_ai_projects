@@ -2,6 +2,7 @@ $navbar-default-bg: #529FCD;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome";
 
 @font-face {
     font-family: 'GT America';
@@ -156,13 +157,17 @@ td,th {
 }
 
 a {
-  color: #000;
+  color: #003F87;
   text-decoration: none;
   position: relative;
 }
 
-footer {
+a:nav {
+  color: #fff;
+  text-decoration: none;
+}
 
+footer {
   bottom: 0;
   width: 100%;
   background-color: #529FCD;
@@ -182,3 +187,7 @@ footer {
   letter-spacing: 4px;
 }
 
+.lower {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
