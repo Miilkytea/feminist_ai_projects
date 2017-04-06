@@ -9,7 +9,7 @@ class PagesController < ApplicationController
   def approach
   end
 
-  def ai_proposals
+  def ai_design_tools
   end
 
   def ai_design_research
