@@ -15,4 +15,7 @@ class PagesController < ApplicationController
   def ai_design_research
   end
 
+  def resources
+  end
+
 end
