@@ -209,6 +209,30 @@ footer {
 .lower {
   padding-top: 65px;
   padding-bottom: 65px;
-  margin: 0 90px;
   text-align:justify;
+  width: 600px;
+  margin: 0 25%;
+}
+
+.home-row {
+   width: 600px;
+   position: relative;
+}
+
+.frontpage {
+  position: absolute;
+  z-index: 2;
+
+}
+.under-shape-one {
+  position: absolute;
+  z-index: -1;
+  height: 400px;
+  width:150px;
+  background-color:  rgba(255,202,255,0.9);
+  clear: both;
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+    transform: rotate(-20deg);
+
 }
