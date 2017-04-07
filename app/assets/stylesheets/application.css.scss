@@ -217,13 +217,18 @@ footer {
 .home-row {
    width: 600px;
    position: relative;
-}
-
-.frontpage {
-  position: absolute;
+   .one {
+  position: absolute; left: 0;
   z-index: 2;
+  }
 
+  .two {
+    position: absolute; right: 0;
+    z-index: 2;
+  }
 }
+
+
 .under-shape-one {
   position: absolute;
   z-index: -1;
@@ -235,4 +240,6 @@ footer {
     -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
     transform: rotate(-20deg);
 
+
 }
+
