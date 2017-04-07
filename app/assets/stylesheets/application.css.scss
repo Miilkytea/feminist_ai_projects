@@ -25,7 +25,7 @@ $navbar-default-bg: #529FCD;
   position: relative;
   clear: both;
   z-index: -1;
-  background-color: rgba(255,102,214,0.9);
+  background-color: rgba(255,102,214,0.7);
   -ms-transform: rotate(10deg); /* IE 9 */
     -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
     transform: rotate( 10deg);
@@ -209,6 +209,50 @@ footer {
 .lower {
   padding-top: 65px;
   padding-bottom: 65px;
-  margin: 0 90px;
   text-align:justify;
+  width: 600px;
+  margin: 0 25%;
 }
+
+.home-row {
+   width: 600px;
+   position: relative;
+   .one {
+  position: absolute; left: 0;
+  z-index: 2;
+  }
+
+  .two {
+    position: absolute; right: 0;
+    z-index: 2;
+  }
+  .under-shape-one {
+  position: absolute;
+  z-index: -2;
+  height: 400px;
+  width:150px;
+  background-color:  rgba(255,202,255,0.7);
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+    transform: rotate(-20deg) scale(2.2);
+
+
+      }
+
+  .under-shape-two {
+    position: absolute; right: 0;
+    z-index: -3;
+    width: 0;
+    height: 0;
+    border-left: 400px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 200px solid pink;
+    -ms-transform: rotate(50deg); /* IE 9 */
+    -webkit-transform: rotate(50deg); /* Chrome, Safari, Opera */
+    transform: rotate(-40deg) scale(2.6);
+
+
+      }
+}
+
+
