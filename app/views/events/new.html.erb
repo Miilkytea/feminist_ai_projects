@@ -1,11 +1,7 @@
 <div id="page_wrapper">
-  <div id="main_content">
-    <div id="page_wrapper">
-      <h1>New Event</h1>
-
-      <%= render 'form', event: @event %>
-
-      <%= link_to 'Back', events_path %>
-    </div>
+  <div class='lower'>
+    <h1>New Event</h1>
+    <%= render 'form', event: @event %>
+    <%= link_to 'Back', events_path %>
   </div>
 </div>

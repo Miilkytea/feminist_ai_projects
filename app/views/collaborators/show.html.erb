@@ -1,10 +1,11 @@
 <div id="page_wrapper">
+  <div class='lower'>
   <p id="notice"><%= notice %></p>
 
   <p>
     <strong>Type:</strong>
     <%= @collaborator.type %>
-  </p>  
+  </p>
 
   <p>
     <strong>Name:</strong>
@@ -14,7 +15,7 @@
   <p>
     <strong>Website:</strong>
     <%= @collaborator.website %>
-  </p>  
+  </p>
 
   <p>
     <strong>Image:</strong>
@@ -23,4 +24,5 @@
 
   <%= link_to 'Edit', edit_collaborator_path(@collaborator) %> |
   <%= link_to 'Back', collaborators_path %>
+  </div>
 </div>
