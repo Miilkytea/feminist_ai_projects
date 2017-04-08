@@ -1,31 +1,33 @@
 <div id="page_wrapper">
-  <p id="notice"><%= notice %></p>
+  <div class='lower'>
+    <p id="notice"><%= notice %></p>
 
-  <p>
-    <strong>Event Name:</strong>
-    <%= @event.event_name %>
-  </p>  
+    <p>
+      <strong>Event Name:</strong>
+      <%= @event.event_name %>
+    </p>
 
-  <p>
-    <strong>Location:</strong>
-    <%= @event.location %>
-  </p>  
+    <p>
+      <strong>Location:</strong>
+      <%= @event.location %>
+    </p>
 
-  <p>
-    <strong>Address:</strong>
-    <%= @event.address %>
-  </p>  
+    <p>
+      <strong>Address:</strong>
+      <%= @event.address %>
+    </p>
 
-  <p>
-    <strong>Date:</strong>
-    <%= @event.date %>
-  </p>  
+    <p>
+      <strong>Date:</strong>
+      <%= @event.date %>
+    </p>
 
-  <p>
-    <strong>About:</strong>
-    <%= @event.about %>
-  </p>  
+    <p>
+      <strong>About:</strong>
+      <%= @event.about %>
+    </p>
 
-  <%= link_to 'Edit', edit_event_path(@event) %> |
-  <%= link_to 'Back', events_path %>
+    <%= link_to 'Edit', edit_event_path(@event) %> |
+    <%= link_to 'Back', events_path %>
+  </div>
 </div>
