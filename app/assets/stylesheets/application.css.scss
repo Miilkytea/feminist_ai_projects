@@ -5,7 +5,7 @@ $navbar-default-bg: #529FCD;
 @import "font-awesome";
 
 @font-face {
-    font-family: 'GT America';
+    font-family: 'gt_america';
     src: url(font-path('GT_America.eot') + "?#iefix") format('embedded-opentype'),
          url(font-path('GT_America.woff')) format('woff'),
          url(font-path('GT_America.ttf'))  format('truetype'),
@@ -30,10 +30,16 @@ $navbar-default-bg: #529FCD;
     -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
     transform: rotate( 10deg);
   h1 {
+    margin-top: -20px;
+    font-size:  3.5em;
+    text-shadow: 2px 3px rgba(232,232,235,0.9);
+    letter-spacing: 1px;
+    line-height: 1.2;
     color: #000;
     text-transform: uppercase;
     font-style: italic;
-    text-weight: lighter;
+    text-weight: bolder;
+    font-family: 'gt_americabold';
     -ms-transform: rotate(-10deg); /* IE 9 */
     -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
     transform: rotate( -10deg);
@@ -212,47 +218,60 @@ footer {
   text-align:justify;
   width: 600px;
   margin: 0 25%;
-}
+  .early {
+    font-style: italic;
+    font-size: 2em;
+    font-family: 'gt_america';
 
-.home-row {
-   width: 600px;
-   position: relative;
-   .one {
-  position: absolute; left: 0;
-  z-index: 2;
   }
+  div.container{
+      .home-row {
+         width: 600px;
+         position: relative;
+         .one {
+        position: absolute; left: 0;
+        z-index: 2;
+        }
 
-  .two {
-    position: absolute; right: 0;
-    z-index: 2;
-  }
-  .under-shape-one {
-  position: absolute;
-  z-index: -2;
-  height: 400px;
-  width:150px;
-  background-color:  rgba(255,202,255,0.7);
-    -ms-transform: rotate(-20deg); /* IE 9 */
-    -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
-    transform: rotate(-20deg) scale(2.2);
+        .two {
+          position: absolute; right: 0;
+          z-index: 2;
+        }
+        .under-shape-one {
+        position: absolute;
+        z-index: -2;
+        height: 400px;
+        width:150px;
+        background-color:  rgba(255,202,255,0.7);
+          -ms-transform: rotate(-20deg); /* IE 9 */
+          -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+          transform: rotate(-20deg) scale(2.2);
+
+            }
+        .under-shape-two {
+          position: absolute; right: 0;
+          z-index: -3;
+          width: 0;
+          height: 0;
+          border-left: 400px solid transparent;
+          border-right: 50px solid transparent;
+          border-bottom: 200px solid pink;
+          -ms-transform: rotate(50deg); /* IE 9 */
+          -webkit-transform: rotate(50deg); /* Chrome, Safari, Opera */
+          transform: rotate(-40deg) scale(2.6);
 
 
+                }
+          }
       }
 
-  .under-shape-two {
-    position: absolute; right: 0;
-    z-index: -3;
-    width: 0;
-    height: 0;
-    border-left: 400px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 200px solid pink;
-    -ms-transform: rotate(50deg); /* IE 9 */
-    -webkit-transform: rotate(50deg); /* Chrome, Safari, Opera */
-    transform: rotate(-40deg) scale(2.6);
 
 
-      }
+
+
+
+
+
+
 }
-
 
