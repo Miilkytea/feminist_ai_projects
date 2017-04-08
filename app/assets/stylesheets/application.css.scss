@@ -4,6 +4,7 @@ $navbar-default-bg: #529FCD;
 @import "bootstrap";
 @import "font-awesome";
 
+
 @font-face {
     font-family: 'gt_america';
     src: url(font-path('GT_America.eot') + "?#iefix") format('embedded-opentype'),
@@ -21,25 +22,25 @@ $navbar-default-bg: #529FCD;
 
 .jumbotron-home {
   /*background-image: asset-url('bitsnbytes_feminist_ai_projects_home.png'); */
-  color: #000;
   position: relative;
   clear: both;
   z-index: -1;
-  background-color: rgba(255,102,214,0.7);
+  background-color: rgba(255,102,214,0.5);
   -ms-transform: rotate(10deg); /* IE 9 */
     -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
     transform: rotate( 10deg);
   h1 {
+    color: #fff;
     margin-top: -20px;
     font-size:  3.5em;
-    text-shadow: 2px 3px rgba(232,232,235,0.9);
+    font-family:"Helvetica Neue";
+    text-shadow: 2px 3px #202020;//rgba(232,232,235,0.9);
     letter-spacing: 1px;
     line-height: 1.2;
-    color: #000;
+    color: #fff;
     text-transform: uppercase;
     font-style: italic;
-    text-weight: bolder;
-    font-family: 'gt_americabold';
+    text-weight: lighter;
     -ms-transform: rotate(-10deg); /* IE 9 */
     -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
     transform: rotate( -10deg);
@@ -130,11 +131,9 @@ $navbar-default-bg: #529FCD;
 }
 
 h1 {
-  font-family: Helvetica;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 31px;
-  /*text-shadow: 4px 4px 4px #529FCD;*/
+
+  font-family: 'gt_americabold';
+  font-size:48px;
 }
 
 hr {
@@ -274,4 +273,8 @@ footer {
 
 
 }
-
+@media all and (max-width: 600px) and (min-width: 520px), (min-width: 1151px) {
+  body {
+    background: #ccc;
+  }
+}
