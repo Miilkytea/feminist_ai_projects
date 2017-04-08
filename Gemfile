@@ -20,6 +20,7 @@ gem "turbolinks", '2.5.3' #To fix the links to the anchor tags @vtamara
   #https://github.com/turbolinks/turbolinks/issues/75
   #gem 'turbolinks', '~> 5'
 gem 'uglifier', '>= 1.3.0'
+gem 'sass-mediaqueries-rails'
 
 group :development, :test do
   gem 'byebug', platform: :mri
