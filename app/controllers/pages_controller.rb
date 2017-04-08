@@ -6,7 +6,7 @@ class PagesController < ApplicationController
   def about
   end
 
-  def approach
+  def design_philosophy
   end
 
   def ai_design_tools
