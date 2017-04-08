@@ -45,89 +45,6 @@ $navbar-default-bg: #529FCD;
     transform: rotate( -10deg);
   }
 }
-
-.jumbotron-approach {
-  background-image: asset-url('bitsnbytes_feminist_ai_projects_2.png');
-}
-
-.jumbotron-approach_methods {
-  background-image: asset-url('bitsnbytes_feminist_ai_projects_methods.png');
-  height: 400px;
-}
-
-.jumbotron-approach_rules {
-  background-image: asset-url('bitsnbytes_feminist_ai_projects_rules.png');
-  height: 400px;
-}
-
-.jumbotron-embodiment {
-  background-image: asset-url('bitsnbytes_feminist_ai_projects_rules.png');
-  height: 400px;
-}
-
-.jumbotron-mitsuku {
-  background-image: asset-url('bitsnbytes_feminist_ai_projects_mitsuku.png');
-  height: 400px;
-}
-
-.jumbotron-research_overview {
-  background-image: asset-url('bitsnbytes_feminist_ai_projects_research_overview.png');
-  height: 400px;
-}
-
-.jumbotron-research_embodiment {
-  background-image: asset-url('bitsnbytes_feminist_ai_projects_embodiment.png');
-  height: 400px;
-}
-
-.jumbotron-research_facial_expression {
-  background-image: asset-url('bitsnbytes_feminist_ai_projects_research_facial_expressions.png');
-  height: 400px;
-}
-
-.jumbotron-research_tone_of_voice {
-  background-image: asset-url('bitsnbytes_feminist_ai_projects_research_tone_of_voice.png');
-  height: 400px;
-}
-
-.jumbotron-research_tone_of_voice-2 {
-  background-image: asset-url('bitsnbytes_feminist_ai_projects_research_tone_of_voice-2.png');
-  height: 400px;
-}
-
-.jumbotron-research_movement-touch {
-  background-image: asset-url('bitsnbytes_feminist_ai_projects_research_movement-touch.png');
-  height: 400px;
-}
-
-.jumbotron-research_emotion {
-  background-image: asset-url('bitsnbytes_feminist_ai_projects_research_emotion.png');
-  height: 400px;
-}
-
-.jumbotron-physical-digital-spaces {
-  background-image: asset-url('bitsnbytes_feminist_ai_projects_research_physical-digital-spaces.png');
-  height: 400px;
-}
-
-.jumbotron-research_model-making {
-  background-image: asset-url('bitsnbytes_feminist_ai_projects_research_model-making.png');
-  height: 400px;
-}
-
-.jumbotron-research_conways-game-of-life {
-  background-image: asset-url('bitsnbytes_feminist_ai_projects_research_conways-game-of-life.png');
-}
-
-.jumbotron-research_future {
-  background-image: asset-url('bitsnbytes_feminist_ai_projects_research_future.png');
-  height: 400px;
-}
-
-.jumbotron-event{
-  background-image: asset-url('bitsnbytes_feminist_ai_projects_embodiment.png');
-}
-
 h1 {
   font-family: 'gt_americabold';
   font-size:48px;
@@ -168,7 +85,7 @@ td,th {
 }
 
 .ai-projects {
-  font-family: Raleway;
+  font-family: GTAmerica;
   font-size: 18px;
   font-style: normal;
   font-variant: normal;
@@ -256,8 +173,8 @@ footer {
                 }
           }
       }
-
 }
+
 @media all and (max-width: 600px) and (min-width: 520px), (min-width: 1151px) {
   body {
     background: #ccc;
@@ -271,5 +188,13 @@ footer {
   font-family: 'gt_americaregular'
 }
 .events:p {
+  font-family: 'gt_americaregular';
+}
+
+.design-philosphy {
+  padding: 5px;
+  font-family: 'gt_americaregular'
+}
+.design-philosphy:p {
   font-family: 'gt_americaregular';
 }
