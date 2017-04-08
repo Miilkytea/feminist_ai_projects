@@ -1,68 +1,64 @@
 <div id="page_wrapper">
   <div class='lower'>
-    <div class='jumbotron jumbotron-event center'>
-      <h1 id='header'>Collaborators</h1>
-    </div>
-
-  <p id="notice"><%= notice %></p>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <p>Bits & Bytes is a creative, collaborative space, made possible due to input from individuals and organizations across Los Angeles.<br>
-          <b>Bits & Bytes members are:</b><br>
-          Cathy Hillman, Paula Burke, Amanda Stojanov, <br>
-          Jen Diamond, Erika Barbosa, Claire Evans, <br>
-          Kora Colasuonno, Reichel Hertzler, Olive Kimoto, <br>
-          Liz Krane, Camila Sobral, Jen Samson, Michaella Vu, <br>
-          Emily Walworth, Laura Fisher, Kelsey, Evelyn Arias, <br>
-          Briana Dacoscos, Sayee Wang, Yunqiao Huang, <br>
-          Brittney Cottrell, Stephanie Cedeno,  Lena Klimas, <br>
-          <a href="https://www.womenwhocode.com/la">Women Who Code</a>,
-          <a href="http://womenscenterforcreativework.com/">The Women’s Center for Creative Work</a>, <br>
-          <a href="http://www.crosscamp.us/site/locations/cross-campus-downtown-la.html?source=googleadwords&gclid=Cj0KEQjwzpfHBRC1iIaL78Ol-eIBEiQAdZPVKnZ5l_K8uWREx5EKNTBLdnxTcaq2iDbIUMAK8FoGiPUaAuUF8P8HAQ">Cross Campus DTLA</a>,
-          <a href="http://www.altadenalibrary.org/">The Altadena Public Library</a>, <br>
-          and <a href="http://machineproject.com/">Machine Project</a>.
-        </p>
-      </div>
-      <div class="col-md-6">
-        <p>Direct or Indirect work on Bits & Bytes work has been made possible by emotional, intellectual and/or content contributions from the following feminists: Elise Co, Cathy Hillman, Jenny Rodenhouse, Casey Anderson, Paula Burke, Shannon Herbert, Claire Evans, Mimi Zeiger, Casey Anderson, Lee Cody, Shiveesh Fotedar, Stephanie Cedeno, Lauren Williams, Nicci Yin, Claire Le Nobel, Casey Kawahara, Jesse Kriss, Adam Berros, Austin Beers, Tara Milch, Sonia Kissin, Rebecca Fiebrink, Maggie Famiglietti, Alison Adam, Donna Haraway, Dara Blumenthal, Katherine Hayles, Sara Ahmed, Kate Crawford, Christopher Miles, Hsinyu Lin, Amirah Noaman, Pamela Grieman, Zachary Canter, Nicholas Jayanty, Damian Gill, Maja Mataric, Ivanna Coleman, Hsinyu Lin and Debra Do, Noelle Griffis</p>
-     </div>
-    </div><!-- class row -->
-  <!--
-    <h2>Individual Collaborators</h2>
-    <p>These individuals have either inspired or directly contributed to Bits and Bytes collaboartive AI.</p>
-    <table>
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Website</th>
-          <th>Image</th>
-          <th colspan="3"></th>
-        </tr>
-      </thead>  
-
-      <tbody>
-        <%# @collaborators.each do |collaborator| %>
+    <h1 id='header'>Collaborators</h1>
+    <p id="notice"><%= notice %></p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>Bits & Bytes is a creative, collaborative space, made possible due to input from individuals and organizations across Los Angeles.<br>
+            <b>Bits & Bytes members are:</b><br>
+            Cathy Hillman, Paula Burke, Amanda Stojanov, <br>
+            Jen Diamond, Erika Barbosa, Claire Evans, <br>
+            Kora Colasuonno, Reichel Hertzler, Olive Kimoto, <br>
+            Liz Krane, Camila Sobral, Jen Samson, Michaella Vu, <br>
+            Emily Walworth, Laura Fisher, Kelsey, Evelyn Arias, <br>
+            Briana Dacoscos, Sayee Wang, Yunqiao Huang, <br>
+            Brittney Cottrell, Stephanie Cedeno,  Lena Klimas, <br>
+            <a href="https://www.womenwhocode.com/la">Women Who Code</a>,
+            <a href="http://womenscenterforcreativework.com/">The Women’s Center for Creative Work</a>, <br>
+            <a href="http://www.crosscamp.us/site/locations/cross-campus-downtown-la.html?source=googleadwords&gclid=Cj0KEQjwzpfHBRC1iIaL78Ol-eIBEiQAdZPVKnZ5l_K8uWREx5EKNTBLdnxTcaq2iDbIUMAK8FoGiPUaAuUF8P8HAQ">Cross Campus DTLA</a>,
+            <a href="http://www.altadenalibrary.org/">The Altadena Public Library</a>, <br>
+            and <a href="http://machineproject.com/">Machine Project</a>.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <p>Direct or Indirect work on Bits & Bytes work has been made possible by emotional, intellectual and/or content contributions from the following feminists: Elise Co, Cathy Hillman, Jenny Rodenhouse, Casey Anderson, Paula Burke, Shannon Herbert, Claire Evans, Mimi Zeiger, Casey Anderson, Lee Cody, Shiveesh Fotedar, Stephanie Cedeno, Lauren Williams, Nicci Yin, Claire Le Nobel, Casey Kawahara, Jesse Kriss, Adam Berros, Austin Beers, Tara Milch, Sonia Kissin, Rebecca Fiebrink, Maggie Famiglietti, Alison Adam, Donna Haraway, Dara Blumenthal, Katherine Hayles, Sara Ahmed, Kate Crawford, Christopher Miles, Hsinyu Lin, Amirah Noaman, Pamela Grieman, Zachary Canter, Nicholas Jayanty, Damian Gill, Maja Mataric, Ivanna Coleman, Hsinyu Lin and Debra Do, Noelle Griffis</p>
+       </div>
+      </div><!-- class row -->
+    <!--
+      <h2>Individual Collaborators</h2>
+      <p>These individuals have either inspired or directly contributed to Bits and Bytes collaboartive AI.</p>
+      <table>
+        <thead>
           <tr>
-            <td><%#= collaborator.type %></td>
-            <td><%#= collaborator.name %></td>
-            <td><%#= collaborator.website %></td>
-            <td><%#= collaborator.image %></td>
-            <td><%#= link_to 'Show', collaborator %></td>
-            <td><%#= link_to 'Edit', edit_collaborator_path(collaborator) %></td>
-            <td><%#= link_to 'Destroy', collaborator, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            <th>Type</th>
+            <th>Name</th>
+            <th>Website</th>
+            <th>Image</th>
+            <th colspan="3"></th>
           </tr>
-        <% #end %>
-      </tbody>
-    </table>  
+        </thead>
 
-    <h2>Organizations</h2>
-    <p>These organizations have either inspired or directly contributed to Bits and Bytes collaboartive AI.</p>
-    <br>
-  -->
-    <%#= link_to 'New Collaborator', new_collaborator_path %>
+        <tbody>
+          <%# @collaborators.each do |collaborator| %>
+            <tr>
+              <td><%#= collaborator.type %></td>
+              <td><%#= collaborator.name %></td>
+              <td><%#= collaborator.website %></td>
+              <td><%#= collaborator.image %></td>
+              <td><%#= link_to 'Show', collaborator %></td>
+              <td><%#= link_to 'Edit', edit_collaborator_path(collaborator) %></td>
+              <td><%#= link_to 'Destroy', collaborator, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            </tr>
+          <% #end %>
+        </tbody>
+      </table>
+
+      <h2>Organizations</h2>
+      <p>These organizations have either inspired or directly contributed to Bits and Bytes collaboartive AI.</p>
+      <br>
+    -->
+      <%#= link_to 'New Collaborator', new_collaborator_path %>
     </div><!-- class container -->
   </div><!-- class lower -->
 </div><!-- class page_wrapper -->
