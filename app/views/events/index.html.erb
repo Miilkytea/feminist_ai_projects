@@ -1,33 +1,16 @@
 <div id="page_wrapper">
   <div class='lower'>
-    <div class='jumbotron jumbotron-event center'>
-      <h1 id='header'>Events</h1>
-    </div>
-
+    <h1 id='header'>Events</h1>
   <p id="notice"><%= notice %></p>
-  <table>
-    <thead>
-      <tr>
-        <th>Event Name</th>
-        <th>Location</th>
-        <th>Address</th>
-        <th>Date</th>
-        <th style="width:400px">About</th>
-      </tr>
-    </thead>
 
-    <tbody>
       <% @events.each do |event| %>
-        <tr>
-          <td><%= event.event_name %></td>
-          <td><%= event.location %></td>
-          <td><%= event.address %></td>
-          <td><%= event.date %></td>
-          <td><%= event.about %></td>
-        </tr>
+        <div class="events">
+          <h3><b><%= event.event_name %></b></h3>
+          <p><%= event.location %><br/>
+             <%= event.date.strftime("%B %-d ,%Y") %></p>
+        </div>
+        <br/>
       <% end %>
-    </tbody>
-  </table>
 
   </div><!-- class lower -->
 </div><!-- class page_wrapper -->
