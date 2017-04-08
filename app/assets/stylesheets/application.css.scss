@@ -13,6 +13,11 @@ $navbar-default-bg: #529FCD;
          url(font-path('GT_America.svg') + "#GT_America") format('svg');
 }
 
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
 .jumbotron {
   background-size: cover;
   height: 300px;
@@ -273,9 +278,11 @@ footer {
 
 
 }
-@media all and (max-width: 600px) and (min-width: 520px), (min-width: 1151px) {
-  body {
-    background: #ccc;
+@media screen and (max-width: 767px) {
+  .lower {
+    margin: 0 10%;
+
   }
+
 }
 
