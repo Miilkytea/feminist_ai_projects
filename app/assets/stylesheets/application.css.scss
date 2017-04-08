@@ -253,7 +253,7 @@ footer {
 
             }
         .under-shape-two {
-          position: absolute; right: 0;
+          position: absolute; right: 2;
           z-index: -3;
           width: 0;
           height: 0;
@@ -278,10 +278,29 @@ footer {
 
 
 }
-@media screen and (max-width: 767px) {
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
   .lower {
-    margin: 0 10%;
+    margin: 0 auto;
+    .jumbotron-home {
+      height: 40%;
+      width: cover;
+      text-align: center;
+      // h1 {
+      //   font-size:
+      // }
 
+    }
+
+    p{
+      font-size: 1.2em;
+      line-height: 1.2;
+    }
+    .two {
+      top:270px;
+
+    }
   }
 
 }
