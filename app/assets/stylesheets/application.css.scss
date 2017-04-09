@@ -1,4 +1,4 @@
-$navbar-default-bg: #b1cfd0;
+$navbar-default-bg: #3366ff;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -143,7 +143,7 @@ footer {
   padding-top: 10px;
   a:hover {
     text-decoration: none;
-    padding:2px;
+    padding:0px;
     border-radius:  4px;
     border: 2px solid #3366ff;
     color: #3366ff;
@@ -153,7 +153,7 @@ footer {
 #foot {
   font-size: 1em;
   a {
-    padding: 0 5px;
+    padding: 0 7px;
   }
 }
 
@@ -179,8 +179,28 @@ footer {
   }
 }
 
+//AI design research page
+.dr-container {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  text-align:justify;
+  text-align:justify;
+  width: 600px;
+  margin: 0 25%;
+  h1{
 
-  //Home Page styling
+  }
+  .subnav {
+
+  }
+
+
+
+}
+
+
+
+//Home Page styling
   div.container{
       .home-row {
          width: 600px;
@@ -248,36 +268,81 @@ footer {
 }
 
 
-@media all and (max-width: 600px) and (min-width: 520px), (min-width: 1151px) {
-  // body {
-  //   background: #ccc;
-  // }
+// @media all and (max-width: 600px) and (min-width: 520px), (min-width: 1151px) {
+//   // body {
+//   //   background: #ccc;
+//   // }
+// }
+
+
+// @media only screen
+// and (min-device-width : 768px)
+// and (max-device-width : 1024px) {
+//   .lower {
+//     margin: 0 auto;
+//     .jumbotron-home {
+//       height: 40%;
+//       width: cover;
+//       text-align: center;
+//       // h1 {
+//       //   font-size:
+//       // }
+
+//     }
+
+//     p{
+//       font-size: 1.2em;
+//       line-height: 1.2;
+//     }
+//     .two {
+//       top:270px;
+
+//     }
+//   }
+
+// }
+
+//IPAD//
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+
+//IPAD MINI//
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
 }
 
 
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
-  .lower {
-    margin: 0 auto;
-    .jumbotron-home {
-      height: 40%;
-      width: cover;
-      text-align: center;
-      // h1 {
-      //   font-size:
-      // }
-
-    }
-
-    p{
-      font-size: 1.2em;
-      line-height: 1.2;
-    }
-    .two {
-      top:270px;
-
-    }
-  }
-
+//IPHONE//
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
 }
