@@ -65,7 +65,8 @@ hr {
   font-size: 1.2em;
   color: white;
   text-transform: uppercase;
-  letter-spacing: -1px;
+  letter-spacing: -0.2px;
+
 }
 
 p,td,li {
@@ -78,8 +79,10 @@ p,td,li {
 }
 
 #logo:hover {
-  color: #999;
+  color: #99ff99;
   text-decoration: none;
+  border: 2px solid #99ff99;
+  border-radius: 4px;
 }
 .center {
   text-align: center;
@@ -100,9 +103,15 @@ td,th {
 }
 
 a {
-  color: #003F87;
+  color: #fff;
   text-decoration: none;
   position: relative;
+}
+
+a:hover {
+  background-color: transparent;
+
+
 }
 
 a:nav {
@@ -110,16 +119,42 @@ a:nav {
   text-decoration: none;
 }
 
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #99ff99;
+  border: 2px solid #99ff99;
+  border-radius: 4px;
+  margin: -3px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  a:hover {
+      color: #99ff99;
+
+  }
+}
+
 footer {
   bottom: 0;
   width: 100%;
-  background-color: #aba3bf;
+  background-color: #ccccff;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 10px;
+  a:hover {
+    text-decoration: none;
+    padding:2px;
+    border-radius:  4px;
+    border: 2px solid #3366ff;
+    color: #3366ff;
+  }
 }
 
 #foot {
   font-size: 1em;
+  a {
+    padding: 0 5px;
+  }
 }
 
 .footer_logo {
@@ -128,7 +163,7 @@ footer {
   color: white;
   text-transform: uppercase;
   letter-spacing: 4px;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 .lower {
@@ -142,6 +177,8 @@ footer {
     font-size: 2em;
     font-family: 'gt_america';
   }
+}
+
 
   //Home Page styling
   div.container{
@@ -181,7 +218,7 @@ footer {
                 }
           }
       }
-}
+
 
 
 //
