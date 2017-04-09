@@ -1,4 +1,4 @@
-$navbar-default-bg: #529FCD;
+$navbar-default-bg: #aacbce;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -113,7 +113,7 @@ a:nav {
 footer {
   bottom: 0;
   width: 100%;
-  background-color: #529FCD;
+  background-color: #bfaace;
   text-align: center;
   padding-top: 5px;
 }
@@ -228,4 +228,10 @@ and (max-device-width : 1024px) {
 }
 .design-philosphy:p {
   font-family: 'gt_americaregular';
+}
+
+.subnav {
+  background: rgba(255,182,193, 0.4);
+  padding: 5px;
+  width: 350px;
 }
