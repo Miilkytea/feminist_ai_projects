@@ -78,7 +78,7 @@ p,td,li {
 }
 
 #logo:hover {
-  color: #999;
+  color: #99ff99;
   text-decoration: none;
 }
 .center {
@@ -100,9 +100,19 @@ td,th {
 }
 
 a {
-  color: #003F87;
+  color: #fff;
   text-decoration: none;
   position: relative;
+}
+
+a:hover {
+  background-color: transparent;
+  border: 3px solid #99ff99;
+  border-radius: 2px;
+  // padding: -3px;
+  margin: -3px;
+  color: #99ff99;
+
 }
 
 a:nav {
@@ -110,10 +120,44 @@ a:nav {
   text-decoration: none;
 }
 
+
+// .navbar-default .navbar-text {
+//   color: white;
+//   color: #99ff99;
+// }
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #99ff99;
+}
+.navbar-default .navbar-nav > li > a > {
+  color: white;
+  a:hover{
+    color: #99ff99;
+  }
+}
+
+
+ul.nav.navbar-default.navbar-right {
+  color: white;
+   a:hover{
+    color: #99ff99;
+  }
+}
+
+.navbar-right,
+.navbar-default,
+.navbar-nav > li > a {
+  color: white;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
 footer {
   bottom: 0;
   width: 100%;
-  background-color: #3366ff;
+  background-color: #ccccff;
   text-align: center;
   padding-top: 5px;
 }
@@ -143,6 +187,12 @@ footer {
     font-family: 'gt_america';
   }
 
+button.nav-baby {
+  background-color: transparent;
+  border: 3px solid #99ff99;
+
+
+}
   //Home Page styling
   div.container{
       .home-row {
