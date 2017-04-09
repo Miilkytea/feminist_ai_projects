@@ -65,7 +65,8 @@ hr {
   font-size: 1.2em;
   color: white;
   text-transform: uppercase;
-  letter-spacing: -1px;
+  letter-spacing: -0.2px;
+
 }
 
 p,td,li {
@@ -80,6 +81,8 @@ p,td,li {
 #logo:hover {
   color: #99ff99;
   text-decoration: none;
+  border: 2px solid #99ff99;
+  border-radius: 4px;
 }
 .center {
   text-align: center;
@@ -107,11 +110,7 @@ a {
 
 a:hover {
   background-color: transparent;
-  border: 3px solid #99ff99;
-  border-radius: 2px;
-  // padding: -3px;
-  margin: -3px;
-  color: #99ff99;
+
 
 }
 
@@ -121,37 +120,19 @@ a:nav {
 }
 
 
-// .navbar-default .navbar-text {
-//   color: white;
-//   color: #99ff99;
-// }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #99ff99;
-}
-.navbar-default .navbar-nav > li > a > {
-  color: white;
-  a:hover{
-    color: #99ff99;
-  }
-}
-
-
-ul.nav.navbar-default.navbar-right {
-  color: white;
-   a:hover{
-    color: #99ff99;
-  }
-}
-
-.navbar-right,
-.navbar-default,
-.navbar-nav > li > a {
-  color: white;
-
+  border: 2px solid #99ff99;
+  border-radius: 4px;
+  margin: -3px;
 }
 
 .navbar-default .navbar-nav > li > a {
   color: white;
+  a:hover {
+      color: #99ff99;
+
+  }
 }
 
 footer {
@@ -159,11 +140,21 @@ footer {
   width: 100%;
   background-color: #ccccff;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 10px;
+  a:hover {
+    text-decoration: none;
+    padding:2px;
+    border-radius:  4px;
+    border: 2px solid #3366ff;
+    color: #3366ff;
+  }
 }
 
 #foot {
   font-size: 1em;
+  a {
+    padding: 0 5px;
+  }
 }
 
 .footer_logo {
@@ -172,7 +163,7 @@ footer {
   color: white;
   text-transform: uppercase;
   letter-spacing: 4px;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 .lower {
@@ -186,13 +177,9 @@ footer {
     font-size: 2em;
     font-family: 'gt_america';
   }
-
-button.nav-baby {
-  background-color: transparent;
-  border: 3px solid #99ff99;
-
-
 }
+
+
   //Home Page styling
   div.container{
       .home-row {
@@ -231,7 +218,7 @@ button.nav-baby {
                 }
           }
       }
-}
+
 
 
 //
