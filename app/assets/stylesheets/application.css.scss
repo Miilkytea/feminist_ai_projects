@@ -1,4 +1,4 @@
-$navbar-default-bg: #aacbce;
+$navbar-default-bg: #3366ff;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -69,7 +69,7 @@ hr {
 }
 
 p,td,li {
-  font-family: Raleway;
+  font-family: "Helvetica Neue";
   font-size: 16px;
   font-style: normal;
   font-variant: normal;
@@ -113,7 +113,7 @@ a:nav {
 footer {
   bottom: 0;
   width: 100%;
-  background-color: #bfaace;
+  background-color: #3366ff;
   text-align: center;
   padding-top: 5px;
 }
@@ -128,6 +128,7 @@ footer {
   color: white;
   text-transform: uppercase;
   letter-spacing: 4px;
+  font-weight: lighter;
 }
 
 .lower {
@@ -141,6 +142,8 @@ footer {
     font-size: 2em;
     font-family: 'gt_america';
   }
+
+  //Home Page styling
   div.container{
       .home-row {
          width: 600px;
@@ -180,10 +183,21 @@ footer {
       }
 }
 
-@media all and (max-width: 600px) and (min-width: 520px), (min-width: 1151px) {
-  body {
-    background: #ccc;
-  }
+
+//
+
+.design-philosphy {
+  padding: 5px;
+  font-family: 'gt_americaregular'
+}
+.design-philosphy:p {
+  font-family: 'gt_americaregular';
+}
+
+.subnav {
+  background: rgba(255,182,193, 0.4);
+  padding: 5px;
+  width: 350px;
 }
 
 .events {
@@ -195,6 +209,15 @@ footer {
 .events:p {
   font-family: 'gt_americaregular';
 }
+
+
+@media all and (max-width: 600px) and (min-width: 520px), (min-width: 1151px) {
+  // body {
+  //   background: #ccc;
+  // }
+}
+
+
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
@@ -220,18 +243,4 @@ and (max-device-width : 1024px) {
     }
   }
 
-}
-
-.design-philosphy {
-  padding: 5px;
-  font-family: 'gt_americaregular'
-}
-.design-philosphy:p {
-  font-family: 'gt_americaregular';
-}
-
-.subnav {
-  background: rgba(255,182,193, 0.4);
-  padding: 5px;
-  width: 350px;
 }
