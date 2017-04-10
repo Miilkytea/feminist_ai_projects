@@ -21,16 +21,27 @@ body {
 .jumbotron {
   background-size: cover;
   height: 300px;
-  color: #3366ff;
-  background-color: transparent;
+
 }
 
 .jumbotron-home {
+    background-color: transparent;
+    h1 {
+      color: #fff;
+      font-size: 2.5em;
+      text-transform: uppercase;
+      font-style: italic;
+      text-align: left;
+      font-weight: bold;
+      -webkit-text-stroke: 1px #3366ff;
+   }
+
 }
 
 h1 {
   font-family: "Helvetica Neue";
   font-size:48px;
+
 }
 
 hr {
@@ -188,41 +199,8 @@ footer {
 
 //Home Page styling
   div.container{
-      .home-row {
-         width: 600px;
-         position: relative;
-         .one {
-        position: absolute; left: 0;
-        z-index: 2;
-        }
 
-        .two {
-          position: absolute; right: 0;
-          z-index: 2;
-        }
-        // .under-shape-one {
-        // position: absolute;
-        // z-index: -2;
-        // height: 400px;
-        // width:150px;
-        // background-color:  rgba(255,202,255,0.7);
-        //   -ms-transform: rotate(-20deg); /* IE 9 */
-        //   -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
-        //   transform: rotate(-20deg) scale(2.2);
-        //     }
-        // .under-shape-two {
-        //   position: absolute; right: 2;
-        //   z-index: -3;
-        //   width: 0;
-        //   height: 0;
-        //   border-left: 400px solid transparent;
-        //   border-right: 50px solid transparent;
-        //   border-bottom: 200px solid pink;
-        //   -ms-transform: rotate(50deg); /* IE 9 */
-        //   -webkit-transform: rotate(50deg); /* Chrome, Safari, Opera */
-        //   transform: rotate(-40deg) scale(2.6);
-        //         }
-          }
+
       }
 
 
