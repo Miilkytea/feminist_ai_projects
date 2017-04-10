@@ -303,46 +303,46 @@ footer {
 // }
 
 //IPAD//
-/* iPads (landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-/* Styles */
+/* iPads (landscape) ----------- 
+@media only screen and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation : landscape) {
 }
 
-/* iPads (portrait) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-/* Styles */
+/* iPads (portrait) ----------- 
+@media only screen and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation : portrait) {
 }
 
 //IPAD MINI//
-/* Portrait and Landscape */
+/* Portrait and Landscape 
 @media only screen
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1) {
-
 }
 
-/* Portrait */
+/* Portrait 
 @media only screen
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
   and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 1) {
-
 }
 
-/* Landscape */
+/* Landscape 
 @media only screen
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 1) {
-
 }
-
 
 //IPHONE//
-/* iPhone 5 ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
+/* iPhone 5 ----------- 
+@media only screen and (min-device-width: 320px)
+  and (max-device-height: 568px) and (orientation : landscape)
+  and (-webkit-device-pixel-ratio: 2){
 }
+*/
