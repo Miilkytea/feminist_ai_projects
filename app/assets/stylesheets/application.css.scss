@@ -44,7 +44,6 @@ body {
 }
 
 p,td,li {
-  font-family: "gt_america";
   font-size: 16px;
   font-style: normal;
   font-variant: normal;
@@ -55,8 +54,6 @@ p,td,li {
 #logo:hover {
   color: #99ff99;
   text-decoration: none;
-  border: 2px solid #99ff99;
-  border-radius: 4px;
 }
 .center {
   text-align: center;
@@ -64,10 +61,6 @@ p,td,li {
 
 td,th {
   width: 150px;
-}
-
-.ai-projects {
-  font-family: GTAmerica;
   font-size: 18px;
   font-style: normal;
   font-variant: normal;
@@ -104,6 +97,13 @@ a:nav {
   }
 }
 
+.photos {
+  padding: 10px;
+  margin: 2px 5px;
+  border: #ededed solid 1px;
+  background-color: #f1f1f1;
+}
+
 .lower {
   padding-bottom: 65px;
   text-align:justify;
@@ -116,7 +116,6 @@ a:nav {
     color: #3366ff;
     font-weight: bold;
     font-style: italic;
-    font-family: "Helvetica Neue";
     width: 480px;
     line-height: 1.1em;
   }
@@ -152,10 +151,8 @@ a:nav {
 
 .design-philosphy {
   padding: 5px;
-  font-family: 'gt_americaregular'
 }
 .design-philosphy:p {
-  font-family: 'gt_americaregular';
 }
 
 .subnav {
@@ -168,11 +165,9 @@ a:nav {
   width:300px;
   padding: 0px 20px 20px 20px;
   border: #ccc solid 1px;
-  font-family: 'gt_americaregular';
   margin: 5px;
 }
 .events:p {
-  font-family: 'gt_americaregular';
 }
 
 .diagram-boxes {
