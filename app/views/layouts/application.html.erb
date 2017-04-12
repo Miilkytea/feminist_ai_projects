@@ -21,11 +21,9 @@
        <%= content_tag(:div, msg, class: "alert") %>
       <% end %>
       <div class="container">
-
-        <%= yield %>
-      </div>
-      <div id="footer">
-        <%= render 'shared/footer' %>
+        <div class="col-sm-9">
+          <%= yield %>
+        </div>
       </div>
     </div>
   </body>

@@ -1,16 +1,15 @@
-$navbar-default-bg: #3366ff;
+$navbar-default-bg: #fff;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
 
-
 @font-face {
-    font-family: 'gt_america';
-    src: url(font-path('GT_America.eot') + "?#iefix") format('embedded-opentype'),
-         url(font-path('GT_America.woff')) format('woff'),
-         url(font-path('GT_America.ttf'))  format('truetype'),
-         url(font-path('GT_America.svg') + "#GT_America") format('svg');
+  font-family: 'gt_america';
+  src: url(font-path('GT_America.eot') + "?#iefix") format('embedded-opentype'),
+    url(font-path('GT_America.woff')) format('woff'),
+    url(font-path('GT_America.ttf'))  format('truetype'),
+    url(font-path('GT_America.svg') + "#GT_America") format('svg');
 }
 
 body {
@@ -21,42 +20,31 @@ body {
 .jumbotron {
   background-size: cover;
   height: 300px;
-
 }
 
 .jumbotron-home {
-    background-color: transparent;
-    h1 {
-      color: #fff;
-      font-size: 2.6em;
-      text-transform: uppercase;
-      font-style: italic;
-      text-align: left;
-      font-weight: bold;
-      -webkit-text-stroke: 1px #3366ff;
-   }
-
+  background-color: transparent;
+  h1 {
+    color: #fff;
+    font-size: 2.6em;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: left;
+    font-weight: bold;
+    -webkit-text-stroke: 1px #3366ff;
+  }
 }
-
-
-h1 {
-  font-family: "Helvetica Neue";
-  font-size:48px;
-
-}
-
 
 #logo {
-  float: left;
   font-size: 1.2em;
-  color: white;
+  color: #3366ff;
   text-transform: uppercase;
   letter-spacing: -0.2px;
-
+  margin-bottom: 30px;
 }
 
 p,td,li {
-  font-family: "Helvetica Neue";
+  font-family: "gt_america";
   font-size: 16px;
   font-style: normal;
   font-variant: normal;
@@ -89,78 +77,41 @@ td,th {
 }
 
 a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
   position: relative;
 }
 
 a:hover {
   background-color: transparent;
-
-
+  color: #3366ff;
 }
 
 a:nav {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
-
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #99ff99;
-  border: 2px solid #99ff99;
-  border-radius: 4px;
-  margin: -3px;
+  color: #3366ff;
+
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: white;
+  color: #000;
   a:hover {
-      color: #99ff99;
-
+    color: #99ff99;
   }
-}
-
-footer {
-  bottom: 0;
-  width: 100%;
-  background-color: #ccccff;
-  text-align: center;
-  padding-top: 10px;
-  a:hover {
-    text-decoration: none;
-    padding:-1px;
-    border-radius:  4px;
-    border: 2px solid #3366ff;
-    color: #3366ff;
-  }
-}
-
-#foot {
-  font-size: 1em;
-  a {
-    padding: 0 7px;
-  }
-}
-
-.footer_logo {
-  text-align: center;
-  font-size: 1.2em;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  font-weight: normal;
 }
 
 .lower {
-  padding-top: 65px;
   padding-bottom: 65px;
   text-align:justify;
   width: 600px;
-  margin: 0 25%;
+  margin: 0 10%;
   p#front-page {
-    margin-top: -160px;
-    margin-left: 50px;
+    margin-top: -100px;
+    margin-left: 20px;
     font-size: 1.7em;
     color: #3366ff;
     font-weight: bold;
@@ -180,10 +131,6 @@ footer {
 
 //AI design research page
 
-.center {
-
-}
-
 .dr-container {
   padding-top: 65px;
   padding-bottom: 65px;
@@ -194,28 +141,14 @@ footer {
   margin: 0 auto;
 
   h1{
-
   }
   .subnav {
-
-
   }
-
-
-
 }
-
-
 
 //Home Page styling
   div.container{
-
-
-      }
-
-
-
-//
+}
 
 .design-philosphy {
   padding: 5px;
@@ -226,16 +159,17 @@ footer {
 }
 
 .subnav {
-  background: rgba(255,182,193, 0.4);
   padding: 5px;
-  width: 350px;
+  width: 300px;
+  border: #ccc solid 1px;
 }
 
 .events {
   width:300px;
-  padding: 8px 20px 20px 20px;
-  background-color: pink;
-  font-family: 'gt_americaregular'
+  padding: 0px 20px 20px 20px;
+  border: #ccc solid 1px;
+  font-family: 'gt_americaregular';
+  margin: 5px;
 }
 .events:p {
   font-family: 'gt_americaregular';
@@ -284,21 +218,19 @@ footer {
           top: 0px;
         }
       }
-
     }
   }
 }
 
-
-
-
+header {
+  height: 100px;
+}
 
 // @media all and (max-width: 600px) and (min-width: 520px), (min-width: 1151px) {
 //   // body {
 //   //   background: #ccc;
 //   // }
 // }
-
 
 // @media only screen
 // and (min-device-width : 768px)
@@ -321,10 +253,8 @@ footer {
 //     }
 //     .two {
 //       top:270px;
-
 //     }
 //   }
-
 // }
 
 //IPAD//
@@ -341,7 +271,6 @@ footer {
 }
 
 //IPAD MINI//
-<<<<<<< HEAD
 /* Portrait and Landscape
 @media only screen
   and (min-device-width: 768px)
@@ -357,14 +286,14 @@ footer {
   and (-webkit-min-device-pixel-ratio: 1) {
 }
 
-/* Landscape
+/* Landscape 
 @media only screen
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 1) {
 }
-=======
+
 /* Portrait and Landscape */
 // @media only screen
 //   and (min-device-width: 768px)
@@ -392,7 +321,7 @@ footer {
 // }
 
 //IPHONE//
-/* iPhone 5 -----------
+/* iPhone 5 ----------- 
 @media only screen and (min-device-width: 320px)
   and (max-device-height: 568px) and (orientation : landscape)
   and (-webkit-device-pixel-ratio: 2){
@@ -401,10 +330,4 @@ footer {
 /* iPhone 5 ----------- */
 @media only screen and (min-device-width: 400px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
 /* Styles */
-
-header {
-    height: 100px;
-
-  }
 }
-
