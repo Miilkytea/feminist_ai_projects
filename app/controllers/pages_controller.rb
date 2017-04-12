@@ -1,5 +1,4 @@
 class PagesController < ApplicationController
-
   def home
   end
 
@@ -23,5 +22,4 @@ class PagesController < ApplicationController
 
   def diagram
   end
-
 end
