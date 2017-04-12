@@ -3,86 +3,9 @@
 @import "font-awesome";
 
 @font-face {
-  font-family: 'GT America';
-  src: url(font-path('gt_america_regular-webfont.woff')) format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'GT America';
-  src: url(font-path('gt_america_extended_bold-webfont.woff')) format('woff');
-  font-weight: bold;
-  font-style: normal;
-}
-
-
-$accent-purple: #744FFC;
-
-body {
-  border: 10px solid $accent-purple;
-  padding: 10px;
-  height: 100vh;
-  width: 100vw;
-  font-family: 'GT America';
-}
-
-.content {
-  margin-left: 33%;
-  height: 100%;
-  overflow: scroll;
-}
-
-nav {
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  h1 {
-    margin: 0;
-    margin-bottom: 15px;
-
-    a {
-      color: $accent-purple;
-      font-size: 18px;
-      font-weight: bold;
-
-      &:hover {
-        text-decoration: none;
-        color: darken($accent-purple, 5);
-      }
-    }
-  }
-
-  ul {
-    padding-left: 30px;
-    li {
-      list-style: none; 
-      font-size: 18px;
-      font-weight: bold;
-      padding-left: 0;
-
-      a {
-        color: black;
-        &:hover {
-          text-decoration: none;
-          color: lighten(black, 50);
-        }
-      }
-    }
-  }
-}
-
-footer {
-  position: absolute;
-  bottom: 30px;
-  left: 30px;
-
-  a {
-    color: black;
-    font-weight: bold;
-    &:hover {
-      text-decoration: none;
-      color: lighten(black, 50);
-    }
-  }
+  font-family: 'gt_america';
+  src: url(font-path('GT_America.eot') + "?#iefix") format('embedded-opentype'),
+  url(font-path('GT_America.woff')) format('woff'),
+  url(font-path('GT_America.ttf'))  format('truetype'),
+  url(font-path('GT_America.svg') + "#GT_America") format('svg');
 }
