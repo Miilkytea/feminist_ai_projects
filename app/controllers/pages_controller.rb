@@ -21,4 +21,7 @@ class PagesController < ApplicationController
   def resources
   end
 
+  def diagram
+  end
+
 end
