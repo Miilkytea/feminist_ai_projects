@@ -241,6 +241,20 @@ footer {
   font-family: 'gt_americaregular';
 }
 
+.diagram-page {
+  position: relative;
+  margin-left: 0;
+  .outer-circle {
+    position: absolute;
+    top: 55px;
+    height: 600px;
+    width: 800px;
+    background-color: rgba(248,187,214, 0.9);
+    border-radius: 100%;
+  }
+}
+
+
 
 // @media all and (max-width: 600px) and (min-width: 520px), (min-width: 1151px) {
 //   // body {

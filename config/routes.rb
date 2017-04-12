@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   get '/ai_design_research', to: 'pages#ai_design_research'
   get '/current_ai_projects', to: 'pages#current_ai_projects'
   get '/resources', to: 'pages#resources'
+  get '/diagram', to: 'pages#diagram'
 end
