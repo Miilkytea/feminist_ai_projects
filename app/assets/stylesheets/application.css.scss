@@ -251,7 +251,14 @@ footer {
     width: 800px;
     background-color: rgba(248,187,214, 0.9);
     border-radius: 100%;
+    .inner-circle {
+      position: absolute;
+      height: 540px;
+      width: 750px;
+      background-color: rgba(243,143,187, 0.9);
+    }
   }
+
 }
 
 
@@ -291,17 +298,43 @@ footer {
 // }
 
 //IPAD//
-/* iPads (landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-/* Styles */
+/* iPads (landscape) -----------
+@media only screen and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation : landscape) {
 }
 
-/* iPads (portrait) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-/* Styles */
+/* iPads (portrait) -----------
+@media only screen and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation : portrait) {
 }
 
 //IPAD MINI//
+<<<<<<< HEAD
+/* Portrait and Landscape
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* Portrait
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* Landscape
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1) {
+}
+=======
 /* Portrait and Landscape */
 // @media only screen
 //   and (min-device-width: 768px)
@@ -328,8 +361,13 @@ footer {
 
 // }
 
-
 //IPHONE//
+/* iPhone 5 -----------
+@media only screen and (min-device-width: 320px)
+  and (max-device-height: 568px) and (orientation : landscape)
+  and (-webkit-device-pixel-ratio: 2){
+}
+*/
 /* iPhone 5 ----------- */
 @media only screen and (min-device-width: 400px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
 /* Styles */
@@ -339,5 +377,4 @@ header {
 
   }
 }
-
 
