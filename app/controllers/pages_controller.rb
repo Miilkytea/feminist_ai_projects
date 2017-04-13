@@ -22,4 +22,8 @@ class PagesController < ApplicationController
 
   def diagram
   end
+
+  def diagram_map
+  end
+
 end
