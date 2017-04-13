@@ -132,17 +132,21 @@ footer {
     background-color: rgba(248,187,214, 0.9);
     border-radius: 100%;
     z-index: -3;
-
-    .inner-circle {
+}
+  .inner-circle {
       position: relative;
-      top: 30px;
+      top: 85px;
       left: 25px;
       height: 540px;
       width: 750px;
       border-radius: 100%;
       background-color: rgba(243,143,187, 0.9);
       display: block;
-      z-index: -2;
+      z-index: 0;
+      a {
+        text-decoration: none;
+        color: #333333;
+      }
       .arrows {
         position: absolute;
         z-index: -1;
@@ -178,7 +182,7 @@ footer {
         position: absolute;
         top: 25px;
         left: -10px;
-
+        z-index: 2;
         .top-box {
            line-height: 100px;
            padding-top: 15px;
@@ -198,4 +202,3 @@ footer {
       }
     }
   }
-}
