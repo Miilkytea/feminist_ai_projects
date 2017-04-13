@@ -218,12 +218,25 @@ footer {
 
 }
 
+.map-circles-top {
+  margin-top: 150px;
+  position: relative;
+
+
+}
+
 .map-circles {
+  display: relative;
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: 190px;
+  width: 190px;
   border-radius: 100%;
+  margin: 10px;
   background-color: beige;
+  text-align: center;
+  h4 {
+    margin-top: 30px; }
+
 }
 
 
