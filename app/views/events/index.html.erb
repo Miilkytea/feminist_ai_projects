@@ -5,7 +5,7 @@
 
     <div class="row">
       <% @events.each do |event| %>
-        <div class="events col-sm-4">
+        <div class="events col-sm-4 events">
           <h3><b><%= event.event_name %></b></h3>
           <p><%= event.location %><br/>
              <%= event.date.strftime("%B %-d ,%Y") %></p>
