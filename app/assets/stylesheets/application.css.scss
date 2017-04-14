@@ -221,3 +221,37 @@ footer {
     position: absolute;
     z-index: 1;
   }
+
+  //==================DIAGRAM-MAP========================//
+
+.gradient {
+ height: 100%;
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #ced8fb, white, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #ced8fb, white, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #ced8fb, white, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top left, #91c2ff, white, white); /* Standard syntax (must be last) */
+
+}
+
+.map-circles-top {
+  margin-top: 150px;
+  position: relative;
+
+
+}
+
+.map-circles {
+  display: relative;
+  display: inline-block;
+  height: 190px;
+  width: 190px;
+  border-radius: 100%;
+  margin: 10px;
+  background-color: beige;
+  text-align: center;
+  h4 {
+    margin-top: 30px; }
+
+}
+
