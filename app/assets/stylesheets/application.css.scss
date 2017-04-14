@@ -27,6 +27,8 @@ body {
 }
 
 .home {
+  position: relative;
+  z-index: 2;
   width: 500px;
   padding-left:50px;
   margin-top: 100px;
@@ -213,4 +215,9 @@ footer {
         }
       }
     }
+  }
+
+  .randomly-placed-icon {
+    position: absolute;
+    z-index: 1;
   }
