@@ -134,6 +134,8 @@ footer {
   float: right;
 }
 
+
+
 .diagram-page {
   position: relative;
   margin-top: -40px;
@@ -160,6 +162,9 @@ footer {
       a {
         text-decoration: none;
         color: #333333;
+      }
+      a:hover {
+        color: #cac6ff;
       }
       .arrows {
         position: absolute;
