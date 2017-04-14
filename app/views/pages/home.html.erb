@@ -1,9 +1,23 @@
 <div class="home">
   <h1>Feminist Artificial Intelligence Projects</h1>
 
-    <p>"Whereas the body can disappear into information with scarcely a murmur of protest, embodiment cannot,
-    for it is tied to the circumstances of the occasion and the person.”
-    </p>
-    <cite>N. Katherine Hayles</cite>
+  <p>"Whereas the body can disappear into information with scarcely a murmur of protest, embodiment cannot,
+  for it is tied to the circumstances of the occasion and the person.”
+  </p>
+  <cite>N. Katherine Hayles</cite>
 
 </div>
+
+<%= image_tag 'icon1.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon2.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon3.png', class: 'randomly-placed-icon' %>
+
+<script>
+function rand0To100() {
+  return Math.floor(Math.random() * 100);
+}
+
+$('.randomly-placed-icon').each(function() {
+  $(this).css({top: rand0To100() + '%', left: rand0To100() + '%'});
+});
+</script>
