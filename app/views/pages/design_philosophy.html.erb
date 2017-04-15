@@ -1,16 +1,12 @@
-<div class="design-philosophy">
+<div class="pages col-md-9">
   <h1>Design Philosophy</h1>
 
-  <div>
     <%= image_tag 'feminist-artificial-intelligence_philosophy_flier1.jpg', alt:'', class:'images' %>
-    <%= image_tag 'feminist-artificial-intelligence_philosophy_flier2.jpg', alt:'', class:'images' %>
-  </div>
-
   <p>
-  Bits & Bytes actively designs for sound, voice, gesture, movement and
+  Bits &#38; Bytes actively designs for sound, voice, gesture, movement and
   touch-based experiences over visual interfaces. We prioritize the
   multi-sensory experiences in our approach to designing intelligent interfaces
-  and agents.  Members of Bits & Bytes engage in collaborative making in
+  and agents.  Members of Bits &#38; Bytes engage in collaborative making in
   physical and digital spaces: (1) digitally through Facebook, Meet-ups, E-mail,
   Instagram, text messages and Internet Protests; (2) physically through
   community partnerships such as Women Who Code, the Women’s Center for Creative
@@ -20,6 +16,7 @@
   and to embodiment and emotion research from Dara Blumenthal, Katherine Hayles
   and Sara Ahmed.
   </p>
+  <%= image_tag 'feminist-artificial-intelligence_philosophy_flier2.jpg', alt:'', class:'images' %>
 
   <div>
     <%= image_tag 'feminist-artificial-intelligence_philosophy_flier3.jpg', alt:'', class:'images' %>
@@ -27,7 +24,7 @@
   </div>
 
   <p>
-  Bits & Bytes reflects the spirit of the open source movement, and a secondary
+  Bits &#38; Bytes reflects the spirit of the open source movement, and a secondary
   goal of this project is to use open source methods to create new thinking
   around designing for artificial intelligence. Our making approach is not only
   collaborative in person, but also in idea generation. We are inspired not only
@@ -60,3 +57,16 @@
     <iframe src="https://player.vimeo.com/video/196108916" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   </div>
 </div>
+<%= image_tag 'icon1.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon2.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon3.png', class: 'randomly-placed-icon' %>
+
+<script>
+function rand0To100() {
+  return Math.floor(Math.random() * 100);
+}
+
+$('.randomly-placed-icon').each(function() {
+  $(this).css({top: rand0To100() + '%', left: rand0To100() + '%'});
+});
+</script>

@@ -1,12 +1,21 @@
-<div id="page_wrapper">
-  <div class='lower'>
+<div class="pages col-md-9">
     <h1 id='header'>Collaborators</h1>
     <p id="notice"><%= notice %></p>
 
-      <h3>A very special thanks to my academic advisor Elise Co!</h3>
+      <h4>A very special thanks to</h4>
+      <h4>my academic advisor Elise Co!</h4>
+      <p>Direct or Indirect work on Feminist AI Projects Revisited has been made possible by emotional, intellectual and/or content contributions from the following feminists and organizations:</p>
 
-      <p>Direct or Indirect work on Feminist AI Projects Revisited has been made possible by emotional, intellectual and/or content contributions from the following feminists and organizations: Alison Adam, Adrienne Adar, Sara Ahmed, Casey Anderson, Evelyn Arias, Erika Barbosa, Austin Beers, Adam Berros, Anne Burdick, Dara Blumenthal, Karen Ann Boren, Mary Jo Boren, Elizabeth Braithwaite, William Braithwaite, Don Brittain, Zachary Canter, Kelsey Carter, Rumman Chowdhury, Lee Cody, Stephanie Cedeno, Kora Colasuonno, Ivanna Coleman, Brittney Cottrell, Kate Crawford, Yvonne Cruz, Briana Dacoscos, Jen Diamond, Debra Do, Tim Durfee, Claire Evans, Rebecca Fiebrink, Laura Fisher, Shiveesh Fotedar, Damian Gill, Pamela Grieman, Noelle Griffis, Houston Guy, Marshall Hamachi, Donna Haraway, Katherine Hayles, Jean He, Shannon Herbert, Reichel Hertzler, Cathy Hillman, Leah Horgan, Yunqiao Huang, Reina Imagawa, Nicholas Jayanty, Amanda Jensen, Casey Kawahara, Olive Kimono, Sonia Kissin, Lena Klimas, Jake Klorman, Liz Krane, Jesse Kriss, Hsinyu Lin, Marnie Maton , Maja Mataric, TL Morris, Joanne McNeil, Jade Milan, Tara Milch, Laura Montoya, Christopher Miles, Saara Nafici, Fay Nafici, Sohrab Nafici, Amirah Noaman, Claire Le Nobel, Camilla Pizarro, Jenny Rodenhouse, Godiva Reisenbichler, Lillian Rust, Suzanne Rust, RJ Sakai, Jen Samson, Camila Sobral, Ginny Song, Amanda Stojanov, Lee Tusman, Nan Tsai, Astha Vagadia, Philip van Allen, Claudia Varon, Michaella Vu, Emily Walworth, Sayee Wang, Lauren Williams, Marion Wirsig, Jason Wong, Mike Wong, Lucas Wrench, Nicci Yin, Mimi Zeiger, Women Who Code, <a href="http://womenscenterforcreativework.com/">The Women’s Center for Creative Work</a>, <a href="http://www.crosscamp.us/site/locations/cross-campus-downtown-la.html?source=googleadwords&gclid=Cj0KEQjwzpfHBRC1iIaL78Ol-eIBEiQAdZPVKnZ5l_K8uWREx5EKNTBLdnxTcaq2iDbIUMAK8FoGiPUaAuUF8P8HAQ">Cross Campus DTLA</a>, <a href="http://www.altadenalibrary.org/">The Altadena Public Library</a>, <a href="http://machineproject.com/"Machine Project</a></p>
+      <div class="col-md-6">
+        <p>
+        Alison Adam, Adrienne Adar, Sara Ahmed, Casey Anderson, Evelyn Arias, Erika Barbosa, Austin Beers, Adam Berros, Anne Burdick, Dara Blumenthal, Karen Ann Boren, Mary Jo Boren, Elizabeth Braithwaite, William Braithwaite, Don Brittain, Zachary Canter, Kelsey Carter, Rumman Chowdhury, Lee Cody, Stephanie Cedeno, Kora Colasuonno, Ivanna Coleman, Brittney Cottrell, Kate Crawford, Yvonne Cruz, Briana Dacoscos, Jen Diamond, Debra Do, Tim Durfee, Claire Evans, Rebecca Fiebrink, Laura Fisher, Shiveesh Fotedar, Damian Gill, Pamela Grieman, Noelle Griffis, Houston Guy, Marshall Hamachi, Donna Haraway, Katherine Hayles, Jean He, Shannon Herbert, Reichel Hertzler, Cathy Hillman, Leah Horgan, Yunqiao Huang, Reina Imagawa, Nicholas Jayanty, Amanda Jensen, Casey Kawahara, Olive Kimono, Sonia Kissin, Lena Klimas
+        </p>
+      </div>
 
+      <div class="col-md-6">
+        <p>Jake Klorman, Liz Krane, Jesse Kriss, Hsinyu Lin, Marnie Maton , Maja Mataric, TL Morris, Joanne McNeil, Jade Milan, Tara Milch, Laura Montoya, Christopher Miles, Saara Nafici, Fay Nafici, Sohrab Nafici, Amirah Noaman, Claire Le Nobel, Camilla Pizarro, Jenny Rodenhouse, Godiva Reisenbichler, Lillian Rust, Suzanne Rust, RJ Sakai, Jen Samson, Camila Sobral, Ginny Song, Amanda Stojanov, Lee Tusman, Nan Tsai, Astha Vagadia, Philip van Allen, Claudia Varon, Michaella Vu, Emily Walworth, Sayee Wang, Lauren Williams, Marion Wirsig, Jason Wong, Mike Wong, Lucas Wrench, Nicci Yin, Mimi Zeiger, Women Who Code, <a href="http://womenscenterforcreativework.com/">The Women’s Center for Creative Work</a>, <a href="http://www.crosscamp.us/site/locations/cross-campus-downtown-la.html?source=googleadwords&gclid=Cj0KEQjwzpfHBRC1iIaL78Ol-eIBEiQAdZPVKnZ5l_K8uWREx5EKNTBLdnxTcaq2iDbIUMAK8FoGiPUaAuUF8P8HAQ">Cross Campus DTLA</a>, <a href="http://www.altadenalibrary.org/">The Altadena Public Library</a>, <a href="http://machineproject.com/">Machine Project</a>
+        </p>
+      </div>
     <!--
       <h2>Individual Collaborators</h2>
       <p>These individuals have either inspired or directly contributed to Bits and Bytes collaboartive AI.</p>
@@ -42,5 +51,18 @@
     -->
       <%#= link_to 'New Collaborator', new_collaborator_path %>
 
-  </div><!-- class lower -->
-</div><!-- class page_wrapper -->
+</div>
+
+<%= image_tag 'icon1.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon2.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon3.png', class: 'randomly-placed-icon' %>
+
+<script>
+function rand0To100() {
+  return Math.floor(Math.random() * 100);
+}
+
+$('.randomly-placed-icon').each(function() {
+  $(this).css({top: rand0To100() + '%', left: rand0To100() + '%'});
+});
+</script>
