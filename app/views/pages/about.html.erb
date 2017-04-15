@@ -1,20 +1,17 @@
-<div class="about">
-  <h2>About</h2>
+<div class="pages col-md-9">
+  <h1>About</h1>
 
-  <%= image_tag("about_feminist-artificial-intelligence_about_collaborative.jpg", width: "400", alt: "Edit Entry", class: "menu_icon") %>
-  <%= image_tag("about_feminist-artificial-intelligence_calendar.jpg", width: "400", alt: "Edit Entry", class:'images') %>
-  <%= image_tag("about_feminist-artificial-intelligence_home_about_posthuman.jpg", width: "400", alt: "Edit Entry", class:'images') %>
-  <%= image_tag("about_feminist-artificial-intelligence_vive", width: "400", alt: "Edit Entry", class:'images') %>
-
+  <%= image_tag("about_feminist-artificial-intelligence_about_collaborative.jpg", alt: "Edit Entry", class:'images') %>
   <p>This project emerges from a MFA thesis in Media Design Practices at ArtCenter College of Design. This work examines the design implications of a Feminist Artificial Intelligence while considering the following design questions:</p>
-  <p>
-  How can we co-author designs for embodiment in AI?
-  How can we call attention to the disembodiment of the female in AI models?
-  How can we incorporate cultural and social considerations in our AI design tools?
-  </p>
+  <ul>
+    <li>How can we co-author designs for embodiment in AI?</li>
+    <li>How can we call attention to the disembodiment of the female in AI models?</li>
+    <li>How can we incorporate cultural and social considerations in our AI design tools?</li>
+  </ul>
 
-  <h3>The Thesis Statement for this argument</h3>
-
+<hr/>
+  <h3>Thesis Statement for this argument</h3>
+  <%= image_tag("about_feminist-artificial-intelligence_vive", alt: "Edit Entry", class:'images') %>
   <p>Early explorations of symbolic Artificial Intelligence, relying on the
   Turing Test, focused on methods to create a disembodied mind. Currently, the
   popular Artificial Neural Network computational model is based on biological
@@ -27,6 +24,8 @@
   evidenced in across various media including Japanese Manga, comics, popular
   films, AI dolls, and home and mobile smart devices.</p>
 
+  <%= image_tag("about_feminist-artificial-intelligence_calendar.jpg", alt: "Edit Entry", class:'images') %>
+
   <p>Feminist theorists Alison Adam and Katherine Hayles posit that Artificial
   Intelligence should focus on addressing embodiment in the design and
   development of AI systems. Dara Blumenthal and Sara Ahmed consider embodiment
@@ -38,8 +37,9 @@
   experience of fluid bodies formed by cultural emotions, while reflecting on
   Blumenthal's idea of embodiment beyond the enfleshed.</p>
 
+<hr/>
   <h3>My response to hegemonic AI is through making</h3>
-
+  <%= image_tag("about_feminist-artificial-intelligence_home_about_posthuman.jpg", alt: "Edit Entry", class:'images') %>
   <p>These feminist AI projects explore design implications when making from a
   collaborative, feminist, post-human perspective. These two Feminist AI
   projects, the Post-human Plugin and Collaborative AI, explore a situated,
@@ -52,7 +52,21 @@
 
   <p>To read research  click here for the first <%= link_to 'half of the working paper', 'https://drive.google.com/open?id=0Bz8lvCqH2p96NXdfc0VnaVF3QVk' %>.</p>
 
-  <p><%= link_to 'Machine Project Presentation', 'https://drive.google.com/open?id=0Bz8lvCqH2p96STVWN3AzUVJoVFk' %> and video about Feminist AI Design, given at Machine Project on 4/1/17</p>
+  <h4><%= link_to 'Machine Project Presentation', 'https://drive.google.com/open?id=0Bz8lvCqH2p96STVWN3AzUVJoVFk' %> and video about Feminist AI Design, given at Machine Project on 4/1/17</h4>
 
   <iframe src="https://player.vimeo.com/video/212216809" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
+
+<%= image_tag 'icon1.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon2.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon3.png', class: 'randomly-placed-icon' %>
+
+<script>
+function rand0To100() {
+  return Math.floor(Math.random() * 100);
+}
+
+$('.randomly-placed-icon').each(function() {
+  $(this).css({top: rand0To100() + '%', left: rand0To100() + '%'});
+});
+</script>

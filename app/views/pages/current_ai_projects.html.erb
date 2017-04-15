@@ -1,7 +1,6 @@
-<div class="current-ai-projects">
-  <h2>Current Ai Projects</h2>
-
-  <h3>Feminist AI Projects</h3>
+<div class="pages col-md-9">
+  <h1>Current Ai Projects</h1>
+  <h2>Feminist AI Projects</h2>
   <div>
     <%= image_tag 'feminist-artificial-intelligence_current-project_scream.jpg', alt:'', class:'images' %>
   </div>
@@ -47,3 +46,17 @@
     <%= image_tag 'feminist-artificial-intelligence-voice-design.jpg', alt:'', class:'images' %>
   </div>
 </div>
+
+<%= image_tag 'icon1.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon2.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon3.png', class: 'randomly-placed-icon' %>
+
+<script>
+function rand0To100() {
+  return Math.floor(Math.random() * 100);
+}
+
+$('.randomly-placed-icon').each(function() {
+  $(this).css({top: rand0To100() + '%', left: rand0To100() + '%'});
+});
+</script>
