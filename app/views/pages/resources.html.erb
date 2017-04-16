@@ -1,6 +1,4 @@
-<div id="page_wrapper">
-  <div class='lower'>
-
+<div class="pages col-md-9">
   <h1 id='header'>Resources</h1>
   <ul>
     <li><%= link_to 'Machine Project', 'http://machineproject.com/' -%></li>
@@ -13,6 +11,20 @@
     <li><%= link_to 'Altadena Library District', 'http://www.altadenalibrary.org/' -%></li>
     <li><%= link_to 'The Wekinator', 'http://www.wekinator.org/' -%></li>
   </ul>
+  </div>
 
-  </div><!-- class lower -->
-</div><!-- class page_wrapper -->
+<%= image_tag 'icon1.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon2.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon3.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon1.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon2.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon3.png', class: 'randomly-placed-icon' %>
+<script>
+function rand0To100() {
+  return Math.floor(Math.random() * 100);
+}
+
+$('.randomly-placed-icon').each(function() {
+  $(this).css({top: rand0To100() + '%', left: rand0To100() + '%'});
+});
+</script>

@@ -1,17 +1,31 @@
-<div id="page_wrapper">
-  <div class='lower'>
-    <h1 id='header'>Events</h1>
+<div class="pages col-md-9">
+  <h1 id='header'>Events</h1>
   <p id="notice"><%= notice %></p>
 
-    <div class="row">
-      <% @events.each do |event| %>
-        <div class="events col-sm-4 events">
-          <h3><b><%= event.event_name %></b></h3>
-          <p><%= event.location %><br/>
-             <%= event.date.strftime("%B %-d ,%Y") %></p>
-        </div>
-        <br/>
-      <% end %>
-    </div><!-- class row -->
-  </div><!-- class lower -->
-</div><!-- class page_wrapper -->
+  <div class="row">
+    <% @events.each do |event| %>
+      <div class="events col-sm-4 events">
+        <h4><b><%= event.event_name %></b></h4>
+        <p><%= event.location %><br/>
+          <%= event.date.strftime("%B %-d, %Y") %></p>
+      </div>
+      <br/>
+    <% end %>
+  </div>
+</div>
+
+<%= image_tag 'icon1.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon2.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon3.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon1.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon2.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon3.png', class: 'randomly-placed-icon' %>
+<script>
+function rand0To100() {
+  return Math.floor(Math.random() * 100);
+}
+
+$('.randomly-placed-icon').each(function() {
+  $(this).css({top: rand0To100() + '%', left: rand0To100() + '%'});
+});
+</script>

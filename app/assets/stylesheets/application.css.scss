@@ -24,30 +24,80 @@ body {
   height: 100vh;
   width: 100vw;
   font-family: 'GT America';
+  overflow:hidden;
 }
 
 .home {
-  position: relative;
+  width: 600px;
   z-index: 2;
-  width: 500px;
-  padding-left:50px;
-  margin-top: 100px;
-  h1 {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 20px;
+  resize: both;
+  overflow: auto;
+    h1 {
     color: #fff;
     font-family: 'GT America';
-    font-size: 2.6em;
+    font-size: 3em;
     text-transform: uppercase;
     font-style: italic;
     text-align: left;
     font-weight: bold;
-    -webkit-text-stroke: 1px $accent-purple;
+
+    -webkit-text-stroke: 2px $accent-purple;
   }
   p {
   font-size: 1.7em;
   color: $accent-purple;
   font-weight: bold;
   font-style: italic;
-  width: 480px;
+  width: 550px;
+  line-height: 1.1em;
+  }
+}
+
+.pages {
+  position: relative;
+  z-index: 2;
+  background:rgba(255,255,255, 0.4);
+  padding-left:50px;
+  margin-top: 50px;
+  h1 {
+    color: #fff;
+    font-family: 'GT America';
+    font-size: 3em;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: left;
+    font-weight: bold;
+    letter-spacing: .1em;
+    -webkit-text-stroke: 2px $accent-purple;
+  }
+  h2 {
+    color: $accent-purple;
+    font-family: 'GT America';
+    font-size: 2.4em;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: bold;
+  }
+  h3 {
+    color: $accent-purple;
+    font-family: 'GT America';
+    font-size: 2.2em;
+    text-transform: uppercase;
+  }
+  h4 {
+    color: $accent-purple;
+    font-family: 'GT America';
+    font-size: 1.7em;
+    text-transform: uppercase;
+  }
+  p, li {
+  font-size: 1.3em;
+  color: black;
   line-height: 1.1em;
   }
 }
@@ -58,6 +108,14 @@ body {
   overflow: scroll;
 }
 
+cite {
+  float: right;
+  color: $accent-purple;
+  font-family: 'GT America';
+  font-size: 1.7em;
+  //text-transform: uppercase;
+}
+
 nav {
   position: absolute;
   top: 30px;
@@ -65,12 +123,10 @@ nav {
   h1 {
     margin: 0;
     margin-bottom: 15px;
-
     a {
       color: $accent-purple;
       font-size: 18px;
       font-weight: bold;
-
       &:hover {
         text-decoration: none;
         color: darken($accent-purple, 5);
@@ -85,12 +141,11 @@ nav {
       font-size: 18px;
       font-weight: bold;
       padding-left: 0;
-
       a {
         color: black;
         &:hover {
           text-decoration: none;
-          color: lighten(black, 50);
+          color: #66CD00;
         }
       }
     }
@@ -101,27 +156,31 @@ footer {
   position: absolute;
   bottom: 30px;
   left: 30px;
-
   a {
     color: black;
     font-weight: bold;
     &:hover {
       text-decoration: none;
-      color: lighten(black, 50);
+      color: #66CD00;
     }
   }
 }
 
 .images {
   border: #ccc solid 1px;
-  margin: 2em 3.2em;
-  width: 300px;
+  margin: 5px;
+  width: 500px;
 }
 
 .events {
   font-family: 'gt_americaregular';
   border: #ccc solid 1px;
   margin: 5px 15px;
+}
+
+hr {
+  background-color: #fff;
+  border-top: 2px dotted $accent-purple;
 }
 
 //===================DIAGRAM===================
@@ -194,7 +253,6 @@ footer {
             top:225px;
             left:385px;
             position: absolute;
-
               }
         }
       .boxes{
@@ -222,9 +280,39 @@ footer {
     }
   }
 
+.gradient {
+ height: 100%;
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #ced8fb, white, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #ced8fb, white, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #ced8fb, white, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top left, #91c2ff, white, white); /* Standard syntax (must be last) */
+}
+
+.map-circles-top {
+  margin-top: 150px;
+  position: relative;
+}
+
+.map-circles {
+  display: relative;
+  display: inline-block;
+  height: 190px;
+  width: 190px;
+  border-radius: 100%;
+  margin: 10px;
+  background-color: beige;
+  text-align: center;
+  h4 {
+    margin-top: 30px; }
+}
+
+//===================Home Page BG Images===================
+
   .randomly-placed-icon {
     position: absolute;
     z-index: 1;
+<<<<<<< HEAD
   }
 
   //==================DIAGRAM-MAP========================//
@@ -259,4 +347,5 @@ footer {
     margin-top: 30px; }
 
 }
+
 

@@ -1,18 +1,11 @@
-<div class="ai-design-tools">
-  <h2>AI Design Tools</h2>
+<div class="pages col-md-9">
+  <h1>AI Design Tools</h1>
 
-  <h3>AI Design Research Findings</h3>
-
-  <div>
-    <%= image_tag 'feminist-artificial-intelligence_design-research_findings.jpg', alt:'', class:'images' %>
-  </div>
+  <h2>AI Design Research Findings</h2>
+  <%= image_tag 'feminist-artificial-intelligence_design-research_insights.jpg', alt:'', class:'images' %>
 
   <h3>Insights</h3>
-  <div>
-    <%= image_tag 'feminist-artificial-intelligence_design-research_insights.jpg', alt:'', class:'images' %>
-  </div>
-
-  <h4>Based on my research with the community through conversations, design investigations and questionnaires I found</h4>
+  <p>Findings based on research with the community through conversations, design investigations and questionnaires</p>
   <ul>
     <li>Participants reported that it is more interesting to have the ability to disable or modify learning behaviors in AI systems.</li>
     <li>Participants reported wanting the ability to directly expose social bias through material AI projects.</li>
@@ -25,10 +18,10 @@
     <li>Users would like to be aware of both positive and negative bias that exists in AI systems.</li>
   </ul>
 
-  <h3>Future Directions</h3>
-  <div>
-    <%= image_tag 'feminist-artificial-intelligence_design-research_future.jpg', alt:'', class:'images' %>
-  </div>
+<hr/>
+
+  <h2>Future Directions</h2>
+  <%= image_tag 'feminist-artificial-intelligence_design-research_future.jpg', alt:'', class:'images' %>
 
   <h4>Implications for designing future AI systems</h4>
   <ul>
@@ -42,11 +35,10 @@
     <li>Designers and developers should include as much information as possible about the algorithms used in physical and digital products.</li>
   </ul>
 
-  <h2>AI Design Tools</h2>
+<hr/>
 
-  <div>
-    <%= image_tag 'feminist-artificial-intelligence_design-research_process.jpg', alt:'', class:'images' %>
-  </div>
+  <h2>AI Design Tools</h2>
+  <%= image_tag 'feminist-artificial-intelligence_design-research_process.jpg', alt:'', class:'images' %>
 
   <p>As the design research findings indicate, users would like more transparency
   regarding the decisions and information going into an AI system, and a
@@ -62,12 +54,12 @@
   prescriptive playful approach to expose people to different types of thinking in
   AI design. Below is a rough sketch of this cultural design tool.</p>
 
-  <div>
-    <%= image_tag 'feminist-artificial-intelligence_culture-design-tool.jpg', alt:'', class:'images' %>
-  </div>
+  <%= image_tag 'feminist-artificial-intelligence_culture-design-tool.jpg', alt:'', class:'images' %>
 
-  <h3>Overall Design Implications</h3>
-  <h4>When utilizing Emotion, Sentiment, and Mood analysis in AI systems, designers should be trained by the individual or group of users, over time and should be changeable.</h4>
+<hr/>
+
+  <h2>Overall Design Implications</h2>
+  <p>When utilizing Emotion, Sentiment, and Mood analysis in AI systems, designers should be trained by the individual or group of users, over time and should be changeable.</p>
   <ul>
     <li>Users should be able to disable or modify learning behaviors in AI systems.</li>
     <li>Users would like to use AI in for social critique and as a tool for collaboration with other humans.</li>
@@ -81,3 +73,17 @@
     <li>As designers we consider how to use to design for creative and embodied experiences.</li>
   </ul>
 </div>
+
+<%= image_tag 'icon1.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon2.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon3.png', class: 'randomly-placed-icon' %>
+
+<script>
+function rand0To100() {
+  return Math.floor(Math.random() * 100);
+}
+
+$('.randomly-placed-icon').each(function() {
+  $(this).css({top: rand0To100() + '%', left: rand0To100() + '%'});
+});
+</script>

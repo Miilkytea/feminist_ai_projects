@@ -1,5 +1,5 @@
-<div class="ai-design-research">
-  <h2>AI Design Research</h2>
+<div class="pages col-md-9">
+  <h1>AI Design Research</h1>
   <%= image_tag 'feminist-artificial-intelligence_design-research_general.jpg', alt:'', class:'images' %>
 
   <p>Within Bits &#38; Bytes’ collaborative design research, we engaged in
@@ -54,27 +54,26 @@
   </ul>
 
   <p>Our discussion about the social and cultural expectations placed on women
-  through the form of smiling resulted in questions like, “Where do you feel a
-  smile in your body”? What is the difference between an imposed smile and a
-  genuine smile (which in our discussion is different than a fake and real
-  smile). Do you want your smiles captured? While many of these in-group
-  discussion questions did not translate to our questionnaires, there was an
-  overall feeling of being the subject of a society that imposes smiles.
-  Workshop attendees claimed they only wanted certain people and designated
+  through the form of smiling resulted in questions like:
+  <ul>
+    <li>Where do you feel a smile in your body?</li>
+    <li>What is the difference between an imposed smile and a genuine smile? (which in our discussion is different than a fake and real smile.)</li>
+    <li>Do you want your smiles captured?</li>
+  </ul>
+  <p>While many of these in-group discussion questions did not translate to our questionnaires, there was an overall feeling of being the subject of a society that imposes smiles. Workshop attendees claimed they only wanted certain people and designated
   organizations to have the ability to receive or capture their smiles.</p>
 
   <p>With the rise in emotions analytics employed through computer vision,
   voice analysis, body movement, what does it mean to capture a socially or
-  culturally imposed smile? Our discussion leads to larger questions like” Can
-  computer vision differentiate between a “welcome to motel 6 smile” and “the
-  smile of a young girl being sex trafficked on a plane”? Can pattern matching
-  help us differentiate genuine and fake smiles, when a smile may indicate
-  trouble or unrest or mask sadness? Could we use computer visions to
-  understand socially and culturally imposed smiles? Is there a regional
-  difference between real, fake and imposed smiles? Or will we simply use
-  smile detection as part of a sentiment analysis package, which will help the
-  health/ wellbeing industry and market researchers sell us more items?</p>
-
+  culturally imposed smile? Our discussion leads to larger questions like:</p>
+  <ul>
+    <li>Can computer vision differentiate between a 'welcome to motel 6 smile' and the
+  smile of a young girl being sex trafficked on a plane?</li>
+    <li>Can pattern matching help us differentiate genuine and fake smiles, when a smile may indicate trouble or unrest or mask sadness?</li>
+    <li>Could we use computer visions to understand socially and culturally imposed smiles?</li>
+    <li>Is there a regional difference between real, fake and imposed smiles?</li>
+    <li>Will we simply use smile detection as part of a sentiment analysis package, which will help the health/ wellbeing industry and market researchers sell us more items?</li>
+  </ul>
   <%= image_tag 'feminist-artificial-intelligence_design-research_smile.jpg', alt:'', class:'images' %>
 
   <p>While the discussions were critical of the smile, amounts our
@@ -116,8 +115,9 @@
       stomach, chest, head, and mind.
     </li>
   </ul>
-
   <p>
+
+  <%= image_tag 'feminist-artificial-intelligence_design-research_findings.jpg', alt:'', class:'images' %>
   <strong>FINDINGS:</strong> The research indicates that while the participants
   were critical of the smile in conversation, there is still a regard for the
   smile and an honoring of different types of smiles. The selective capturing of
@@ -126,3 +126,17 @@
   having to smile, felt more sincere than a physically fake smile.
   </p>
 </div>
+
+<%= image_tag 'icon1.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon2.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon3.png', class: 'randomly-placed-icon' %>
+
+<script>
+function rand0To100() {
+  return Math.floor(Math.random() * 100);
+}
+
+$('.randomly-placed-icon').each(function() {
+  $(this).css({top: rand0To100() + '%', left: rand0To100() + '%'});
+});
+</script>
