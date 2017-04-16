@@ -23,14 +23,18 @@ body {
   padding: 10px;
   height: 100vh;
   width: 100vw;
-  font-family: 'Helvetica Neue';
+  font-family: 'GT America';
 }
 
 .home {
+  position: relative;
+  z-index: 2;
   width: 500px;
+  padding-left:50px;
   margin-top: 100px;
   h1 {
     color: #fff;
+    font-family: 'GT America';
     font-size: 2.6em;
     text-transform: uppercase;
     font-style: italic;
@@ -108,6 +112,18 @@ footer {
   }
 }
 
+.images {
+  border: #ccc solid 1px;
+  margin: 2em 3.2em;
+  width: 300px;
+}
+
+.events {
+  font-family: 'gt_americaregular';
+  border: #ccc solid 1px;
+  margin: 5px 15px;
+}
+
 //===================DIAGRAM===================
 
 .diagram-boxes {
@@ -117,8 +133,6 @@ footer {
   margin: 2em 3.2em;
   float: right;
 }
-
-
 
 .diagram-page {
   position: relative;
@@ -206,7 +220,6 @@ footer {
     }
   }
 
-//==================DIAGRAM-MAP========================//
 
 .gradient {
  height: 100%;
@@ -239,8 +252,7 @@ footer {
 
 }
 
-
-
-
-
-
+  .randomly-placed-icon {
+    position: absolute;
+    z-index: 1;
+  }
