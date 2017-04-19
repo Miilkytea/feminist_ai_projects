@@ -64,19 +64,5 @@
 
   <h4><%= link_to 'Machine Project Presentation', 'https://drive.google.com/open?id=0Bz8lvCqH2p96STVWN3AzUVJoVFk' %> and video about Feminist AI Design, given at Machine Project on 4/1/17</h4>
 
-  <iframe src="https://player.vimeo.com/video/212216809" width="858" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/212216809" width="858" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="videos"></iframe>
 </div>
-
-<%= image_tag 'icon1.png', class: 'randomly-placed-icon' %>
-<%= image_tag 'icon2.png', class: 'randomly-placed-icon' %>
-<%= image_tag 'icon3.png', class: 'randomly-placed-icon' %>
-
-<script>
-function rand0To100() {
-  return Math.floor(Math.random() * 100);
-}
-
-$('.randomly-placed-icon').each(function() {
-  $(this).css({top: rand0To100() + '%', left: rand0To100() + '%'});
-});
-</script>
