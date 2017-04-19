@@ -25,4 +25,10 @@ class PagesController < ApplicationController
 
   def diagram_map
   end
+
+  def research_inspiration
+  end
+
+  def future_directions
+  end
 end

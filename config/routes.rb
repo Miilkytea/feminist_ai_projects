@@ -10,4 +10,6 @@ Rails.application.routes.draw do
   get '/resources', to: 'pages#resources'
   get '/diagram', to: 'pages#diagram'
   get '/diagram_map', to: 'pages#diagram_map'
+  get '/future_directions', to: 'pages#future_directions'
+  get '/research_inspiration', to: 'pages#research_inspiration'
 end
