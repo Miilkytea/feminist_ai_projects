@@ -5,16 +5,22 @@ class PagesController < ApplicationController
   def about
   end
 
-  def design_philosophy
+  def approach
   end
 
-  def ai_design_tools
+  def research_methods
   end
 
-  def ai_design_research
+  def design_implications
   end
 
   def current_ai_projects
+  end
+
+  def research_inspiration
+  end
+
+  def future_directions
   end
 
   def resources
@@ -24,11 +30,5 @@ class PagesController < ApplicationController
   end
 
   def diagram_map
-  end
-
-  def research_inspiration
-  end
-
-  def future_directions
   end
 end

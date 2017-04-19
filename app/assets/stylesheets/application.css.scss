@@ -20,42 +20,12 @@ $accent-purple: #744FFC;
 
 body {
   border: 10px solid $accent-purple;
+  z-index: 2;
   padding: 10px;
   height: 100vh;
   width: 100vw;
   font-family: 'GT America';
   overflow:hidden;
-}
-
-.home {
-  width: 600px;
-  z-index: 2;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  padding: 20px;
-  resize: both;
-  overflow: auto;
-    h1 {
-    color: #fff;
-    font-family: 'GT America';
-    font-size: 3em;
-    text-transform: uppercase;
-    font-style: italic;
-    text-align: left;
-    font-weight: bold;
-
-    -webkit-text-stroke: 2px $accent-purple;
-  }
-  p {
-  font-size: 1.7em;
-  color: $accent-purple;
-  font-weight: bold;
-  font-style: italic;
-  width: 550px;
-  line-height: 1.1em;
-  }
 }
 
 .pages {
@@ -118,6 +88,7 @@ cite {
 
 nav {
   position: absolute;
+  z-index: 2;
   top: 30px;
   left: 30px;
   h1 {
@@ -154,6 +125,7 @@ nav {
 
 footer {
   position: absolute;
+  z-index: 2;
   bottom: 30px;
   left: 30px;
   a {
@@ -169,7 +141,12 @@ footer {
 .images {
   border: #ccc solid 1px;
   margin: 5px;
-  width: 858px;
+  width: 600px;
+}
+
+.videos {
+  position: relative;
+  z-index: 2;
 }
 
 .events {
@@ -193,8 +170,6 @@ hr {
   float: right;
 }
 
-
-
 .diagram-page {
   position: relative;
   margin-top: -40px;
@@ -207,7 +182,7 @@ hr {
     background-color: rgba(248,187,214, 0.9);
     border-radius: 100%;
     z-index: -3;
-}
+  }
   .inner-circle {
       position: relative;
       top: 85px;
@@ -239,14 +214,12 @@ hr {
             top:145px;
             left:275px;
             position: absolute;
-
               }
           svg.arrow3 {
             transform: scale(.18) rotate(90deg);
             top:55px;
             left:385px;
             position: absolute;
-
               }
           svg.arrow4 {
             transform: scale(.18) rotate(90deg);
@@ -281,12 +254,12 @@ hr {
   }
 
 .gradient {
- height: 100%;
-    background: white; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(left top, #ced8fb, white, white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, #ced8fb, white, white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, #ced8fb, white, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to top left, #91c2ff, white, white); /* Standard syntax (must be last) */
+  height: 100%;
+  background: white; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #ced8fb, white, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #ced8fb, white, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #ced8fb, white, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to top left, #91c2ff, white, white); /* Standard syntax (must be last) */
 }
 
 .map-circles-top {
@@ -309,28 +282,25 @@ hr {
 
 //===================Home Page BG Images===================
 
-  .randomly-placed-icon {
-    position: absolute;
-    z-index: 1;
+.randomly-placed-icon {
+  position: absolute;
+  z-index: 1;
   }
 
   //==================DIAGRAM-MAP========================//
 
 .gradient {
- height: 100%;
-    background: white; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(left top, #ced8fb, white, white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, #ced8fb, white, white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, #ced8fb, white, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to top left, #91c2ff, white, white); /* Standard syntax (must be last) */
-
+  height: 100%;
+  background: white; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #ced8fb, white, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #ced8fb, white, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #ced8fb, white, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to top left, #91c2ff, white, white); /* Standard syntax (must be last) */
 }
 
 .map-circles-top {
   margin-top: 150px;
   position: relative;
-
-
 }
 
 .map-circles {
@@ -344,7 +314,4 @@ hr {
   text-align: center;
   h4 {
     margin-top: 30px; }
-
 }
-
-
