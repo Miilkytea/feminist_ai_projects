@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   resources :collaborators
   resources :events
   root 'pages#home'
-  get '/about', to: 'pages#about'
+  get '/background', to: 'pages#background'
   get '/approach', to: 'pages#approach'
   get '/research_methods', to: 'pages#research_methods'
   get '/design_implications', to: 'pages#design_implications'
