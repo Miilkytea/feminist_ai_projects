@@ -11,6 +11,12 @@ class PagesController < ApplicationController
   def research_methods
   end
 
+  def ai_design_research
+  end
+
+  def ai_design_tools
+  end
+
   def design_implications
   end
 
