@@ -71,6 +71,10 @@ body {
   color: black;
   line-height: 1.1em;
   }
+
+  p, ul {
+    padding-bottom: 20px;
+  }
 }
 
 .content {
@@ -345,14 +349,21 @@ hr {
             }
           }
         }
+        .small-head  {
+          width: 100px;
+          a {
+            font-size: 2em;
+          }
+        }
 
         ul {
-          padding-left: 30px;
+          padding-left: 10px;
           li {
             list-style: none;
             font-size: 18px;
             font-weight: bold;
             padding-left: 0;
+            line-height: 1.5em;
             a {
               color: black;
               &:hover {
@@ -396,21 +407,24 @@ hr {
           text-align: left;
           font-weight: bold;
           letter-spacing: .1em;
+          padding-bottom: 15px;
           -webkit-text-stroke: 2px $accent-purple;
         }
         h2 {
           color: $accent-purple;
           font-family: 'GT America';
-          font-size: 2.4em;
+          font-size: 1.8em;
           text-transform: uppercase;
           text-align: left;
           font-weight: bold;
+          padding-bottom: 15px;
         }
         h3 {
           color: $accent-purple;
           font-family: 'GT America';
-          font-size: 2.2em;
+          font-size: 1.8em;
           text-transform: uppercase;
+          padding-bottom: 15px;
         }
         h4 {
           color: $accent-purple;
