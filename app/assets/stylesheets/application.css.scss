@@ -29,6 +29,7 @@ body {
 }
 
 .pages {
+    width:858px;
   position: relative;
   z-index: 2;
   background:rgba(255,255,255, 0.4);
@@ -76,7 +77,6 @@ body {
   margin-left: 25%;
   height: 100%;
   overflow: scroll;
-    width:100%;
 }
 
 cite {
