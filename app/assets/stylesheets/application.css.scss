@@ -69,7 +69,7 @@ body {
   p, li {
   font-size: 1.3em;
   color: black;
-  line-height: 1.1em;
+  line-height: 1.3em;
   }
 
   p, ul {
@@ -88,6 +88,12 @@ cite {
   color: $accent-purple;
   font-family: 'GT America';
   font-size: 1.7em;
+}
+
+a.invision {
+  font-size: 1.8em;
+  text-decoration: none;
+  padding-bottom: 25px;
 }
 
 nav {
@@ -145,7 +151,8 @@ footer {
 .images {
   border: #ccc solid 1px;
   margin: 5px;
-  width: 600px;
+  width: 640px;
+  height: 360px;
 }
 
 .videos {
@@ -161,7 +168,7 @@ footer {
 
 hr {
   background-color: #fff;
-  border-top: 2px dotted $accent-purple;
+  border-top: 2px solid $accent-purple;
 }
 
 //===================DIAGRAM===================
@@ -401,7 +408,7 @@ hr {
         h1 {
           color: #fff;
           font-family: 'GT America';
-          font-size: 2em;
+          font-size: 2.2em;
           text-transform: uppercase;
           font-style: italic;
           text-align: left;
@@ -429,8 +436,9 @@ hr {
         h4 {
           color: $accent-purple;
           font-family: 'GT America';
-          font-size: 1.7em;
+          font-size: 1.4em;
           text-transform: uppercase;
+          padding-bottom: 15px;
         }
         p, li {
         font-size: 1.3em;
