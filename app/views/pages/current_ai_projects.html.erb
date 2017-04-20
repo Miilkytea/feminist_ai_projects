@@ -1,0 +1,54 @@
+<div class="pages col-md-9">
+  <h1>CURRENT PROJECTS</h1>
+
+  <h2>Face sound protest:</h2>
+
+  <p>This project pulled from the research created in the Bits and Bytes
+  workshops. The participants wanted to "scream with their bodies" without using
+  a voice. This resulted in a live Sound Face Protest at Machine Project. We
+  used <a href="https://github.com/genekogan/ofxFaceTracker/">Gene Kogan’s ofxFaceTracker</a> as an input and tried two outputs,
+  a midi board and <a href="http://www.wekinator.org/examples/#Pick_Choose_Outputs">FM Synth Processing Sketch</a>
+  with the machine learning tool, <a href="http://www.wekinator.org/">Wekinator</a> existing artificial neural network model to curate our own algorithmic sound experiences</p>
+
+  <ul>
+    <li>Data: from our faces</li>
+    <li>Input Type: continuous</li>
+    <li>Learning: individually curated ML algorithms </li>
+    <li>Model Type: neural network (with 1 hidden layer)</li>
+    <li>Intent: protest</li>
+    <li>Behavior: occupy with sound</li>
+  </ul>
+
+  <iframe src="https://player.vimeo.com/video/212188811" width="858" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+  <h2>Posthuman plugin </h2>
+  <p>The Posthuman Plugin examines the disembodiment of females through the re-appropriation of voice.</p>
+
+<!--   <div>
+    <%= image_tag 'feminist-artificial-intelligence_current-voice-toolkit.jpg', alt:'', class:'images' %>
+    <%= image_tag 'feminist-artificial-intelligence-voice-model.jpg', alt:'', class:'images' %>
+  </div> -->
+
+  <p>Based on the voice toolkit, and verbal communication with people in Bits
+  and Bytes, and interviews outside of Bits and Bytes, I took the top 3
+  responses and created voice plugins to address the results of the
+  research.</p>
+
+  <div>
+<!--     <%= image_tag 'feminist-artificial-intelligence-voice-design.jpg', alt:'', class:'images' %>
+ -->  </div>
+</div>
+
+<%= image_tag 'icon1.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon2.png', class: 'randomly-placed-icon' %>
+<%= image_tag 'icon3.png', class: 'randomly-placed-icon' %>
+
+<script>
+function rand0To100() {
+  return Math.floor(Math.random() * 100);
+}
+
+$('.randomly-placed-icon').each(function() {
+  $(this).css({top: rand0To100() + '%', left: rand0To100() + '%'});
+});
+</script>
