@@ -163,7 +163,7 @@ hr {
 //===================DIAGRAM===================
 
 .diagram-boxes {
-  background-color: rgba(131, 96, 113, 0.9);
+  background-color: rgba(141, 135, 163, 0.3);
   height: 100px;
   width: 120px;
   margin: 2em 3.2em;
@@ -179,7 +179,7 @@ hr {
     top: 55px;
     height: 600px;
     width: 800px;
-    background-color: rgba(248,187,214, 0.9);
+    background-color: rgba(116,79,252, 0.9);
     border-radius: 100%;
     z-index: -3;
   }
@@ -190,15 +190,15 @@ hr {
       height: 540px;
       width: 750px;
       border-radius: 100%;
-      background-color: rgba(243,143,187, 0.9);
+      background-color: rgba(181,162,249, 0.9);
       display: block;
       z-index: 0;
       a {
         text-decoration: none;
-        color: #333333;
+        color: #222222;
       }
       a:hover {
-        color: #cac6ff;
+        color: #66CD00;
       }
       .arrows {
         position: absolute;
@@ -243,6 +243,9 @@ hr {
           padding-top:20px;
           h3.model {
             padding-top: 15px;
+          }
+          h3.tdat {
+            padding-top: 5px;
           }
         }
         .bottom-box  {
@@ -422,24 +425,27 @@ hr {
         }
       }
 
-      .content {
-        margin-left: 25%;
-        height: 100%;
-        overflow: scroll;
-      }
+        .content {
+          margin-left: 25%;
+          height: 100%;
+          overflow: scroll;
+        }
 
-      cite {
-        float: right;
-        color: $accent-purple;
-        font-family: 'GT America';
-        font-size: 1.7em;
-      }
+        cite {
+          float: right;
+          color: $accent-purple;
+          font-family: 'GT America';
+          font-size: 1.7em;
+        }
     .diagram-boxes {
-      background-color: rgba(131, 96, 113, 0.9);
-      height: 80px;
-      width: 100px;
+      //background-color: rgba(131, 96, 113, 0.9);
+      height: 90px;
+      width: 110px;
       margin: 1em 2.2em;
       float: right;
+      h3 {
+        font-size: 1.2em;
+      }
     }
 
     .diagram-page {
@@ -452,63 +458,62 @@ hr {
         top: 55px;
         height: 700px;
         width: 600px;
-        background-color: rgba(248,187,214, 0.9);
+        //background-color: rgba(248,187,214, 0.9);
         border-radius: 100%;
         z-index: -3;
       }
       .inner-circle {
           position: relative;
-          top: 85px;
+          top: 80px;
           left: 25px;
           height: 650px;
           width: 550px;
           border-radius: 100%;
-          background-color: rgba(243,143,187, 0.9);
+          //background-color: rgba(243,143,187, 0.9);
           display: block;
           z-index: 0;
           a {
             text-decoration: none;
-            color: #333333;
+            //color: #333333;
           }
           a:hover {
-            color: #cac6ff;
+            //color: #cac6ff;
           }
           .arrows {
             position: absolute;
             z-index: -1;
+            left:-50px;
+
               svg.arrow1 {
-                transform: scale(.18);
-                left:65px;
-                top:145px;
+                transform: scale(.15);
+                left:80px;
+                top:185px;
                 position: absolute;
                   }
               svg.arrow2 {
-                transform: scale(.18);
-                top:145px;
-                left:275px;
+                transform: scale(.15);
+                top:185px;
+                left:255px;
                 position: absolute;
                   }
               svg.arrow3 {
-                transform: scale(.18) rotate(90deg);
-                top:55px;
-                left:385px;
+                transform: scale(.15) rotate(90deg);
+                top:120px;
+                left:345px;
                 position: absolute;
                   }
               svg.arrow4 {
-                transform: scale(.18) rotate(90deg);
-                top:225px;
-                left:385px;
+                transform: scale(.15) rotate(90deg);
+                top:260px;
+                left:345px;
                 position: absolute;
                   }
             }
           .boxes{
             position: absolute;
-            top: 25px;
-            left: -70px;
+            top: 125px;
+            left: -5px;
             z-index: 2;
-
-
-
             .top-box {
                line-height: 100px;
                padding-top: 15px;
@@ -521,6 +526,9 @@ hr {
               h3.model {
                 padding-top: 15px;
               }
+              h3.tdat {
+                padding-top: 15px;
+          }
             }
             .bottom-box  {
               padding-top: 10px;
