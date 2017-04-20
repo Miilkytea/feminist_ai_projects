@@ -8,7 +8,10 @@ class PagesController < ApplicationController
   def approach
   end
 
-  def research_methods
+  def research_methods_one
+  end
+
+  def research_methods_two
   end
 
   def design_implications
