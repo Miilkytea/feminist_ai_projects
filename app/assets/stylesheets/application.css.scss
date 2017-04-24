@@ -38,7 +38,7 @@ body {
   text-align: justify;
   h1 {
     color: #fff;
-    font-family: 'GT America';
+    font-family: 'Helvetica Neue';
     font-size: 3em;
     text-transform: uppercase;
     font-style: italic;
@@ -49,7 +49,7 @@ body {
   }
   h2 {
     color: $accent-purple;
-    font-family: 'GT America';
+    font-family: 'Helvetica Neue';
     font-size: 2.4em;
     text-transform: uppercase;
     text-align: left;
@@ -57,13 +57,13 @@ body {
   }
   h3 {
     color: $accent-purple;
-    font-family: 'GT America';
+    font-family: 'Helvetica Neue';
     font-size: 2.2em;
     text-transform: uppercase;
   }
   h4 {
     color: $accent-purple;
-    font-family: 'GT America';
+    font-family: 'Helvetica Neue';
     font-size: 1.7em;
     text-transform: uppercase;
   }
@@ -98,9 +98,11 @@ a.invision {
 
 nav {
   position: absolute;
+  font-family: 'Helvetica Neue';
   z-index: 2;
   top: 30px;
   left: 30px;
+
   h1 {
     margin: 0;
     margin-bottom: 15px;
@@ -138,6 +140,7 @@ footer {
   z-index: 2;
   bottom: 30px;
   left: 30px;
+  font-family: 'Helvetica Neue';
   a {
     color: black;
     font-weight: bold;
@@ -406,7 +409,7 @@ hr {
         text-align: justify;
         h1 {
           color: #fff;
-          font-family: 'GT America';
+          font-family: 'Helvetica Neue';
           font-size: 2.2em;
           text-transform: uppercase;
           font-style: italic;
@@ -418,7 +421,7 @@ hr {
         }
         h2 {
           color: $accent-purple;
-          font-family: 'GT America';
+          font-family: 'Helvetica Neue';
           font-size: 1.8em;
           text-transform: uppercase;
           text-align: left;
@@ -427,14 +430,14 @@ hr {
         }
         h3 {
           color: $accent-purple;
-          font-family: 'GT America';
+          font-family: 'Helvetica Neue';
           font-size: 1.8em;
           text-transform: uppercase;
           padding-bottom: 15px;
         }
         h4 {
           color: $accent-purple;
-          font-family: 'GT America';
+          font-family: 'Helvetica Neue';
           font-size: 1.4em;
           text-transform: uppercase;
           padding-bottom: 15px;
